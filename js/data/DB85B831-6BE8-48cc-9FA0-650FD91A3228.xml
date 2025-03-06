@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.4.2.2:1", "", "Data Governance", "EARoot/EA4/EA2/EA2/EA385.htm", "175.png", "3039", "0", "", "Logical diagram0","{1F4D22A9-28C6-43fb-8661-9C0B321D16B6}");
-tocTab[tocTab.length] = new Array("0.4.2.2.1", "1", "Data Quality", "EARoot/EA4/EA2/EA2/EA1/EA393.htm", "4.png", "", "", "{DF9004C2-6CF3-4e2f-959C-035FF0F4E034}", "Package");
-tocTab[tocTab.length] = new Array("0.4.2.2.2", "1", "Data Standards", "EARoot/EA4/EA2/EA2/EA2/EA396.htm", "4.png", "", "", "{BDE905B3-7B1A-4895-B8C0-791010B61764}", "Package");
-tocTab[tocTab.length] = new Array("0.4.2.2.3", "1", "Master Data Management", "EARoot/EA4/EA2/EA2/EA3/EA399.htm", "4.png", "", "", "{B5432CE7-0128-482c-8D17-14E81521895E}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.2:1", "", "Data Governance", "EARoot/EA4/EA3/EA2/EA2/EA1843.htm", "175.png", "40", "0", "", "Logical diagram0","{1F4D22A9-28C6-43fb-8661-9C0B321D16B6}");
+tocTab[tocTab.length] = new Array("0.4.3.2.2.1", "1", "Data Quality", "EARoot/EA4/EA3/EA2/EA2/EA1/EA1851.htm", "4.png", "", "", "{DF9004C2-6CF3-4e2f-959C-035FF0F4E034}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.2.2", "1", "Data Standards", "EARoot/EA4/EA3/EA2/EA2/EA2/EA1854.htm", "4.png", "", "", "{BDE905B3-7B1A-4895-B8C0-791010B61764}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.2.3", "1", "Master Data Management", "EARoot/EA4/EA3/EA2/EA2/EA3/EA1857.htm", "4.png", "", "", "{B5432CE7-0128-482c-8D17-14E81521895E}", "Package");

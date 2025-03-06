@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Cadeia de Valor</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA2896.png" usemap="#EA2896" border="0" />
+
+<MAP NAME="EA2896">
+<area shape="rect" coords="10,211,100,281" href="EA2910.htm" target="_self">
+<area shape="rect" coords="390,115,480,185" href="EA2909.htm" target="_self">
+<area shape="rect" coords="295,115,385,185" href="EA2908.htm" target="_self">
+<area shape="rect" coords="200,115,290,185" href="EA2906.htm" target="_self">
+<area shape="rect" coords="105,115,195,185" href="EA2905.htm" target="_self">
+<area shape="rect" coords="10,115,100,185" href="EA2904.htm" target="_self">
+<area shape="rect" coords="391,10,481,80" href="EA2903.htm" target="_self">
+<area shape="rect" coords="296,10,386,80" href="EA2900.htm" target="_self">
+<area shape="rect" coords="201,10,291,80" href="EA2899.htm" target="_self">
+<area shape="rect" coords="106,10,196,80" href="EA2898.htm" target="_self">
+<area shape="rect" coords="11,10,101,80" href="EA2901.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Cadeia de Valor : Business Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">01/04/2024 15:55:39</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">08/04/2024 10:13:04</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">X253576</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{B7E34259-BA6A-4745-9C42-B48442C525A0}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Vice Presidências", "EARoot/EA2/EA17.htm", "175.png", "415", "0", "", "Logical diagram0","{F0FDCD26-0B5F-4d4f-ABD2-538F0F7294A0}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "VPs x Jornadas", "EARoot/EA2/EA19.htm", "175.png", "400", "0", "", "Logical diagram0","{2506BE6B-5742-4b0f-82DB-48C5EDF0EFF5}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "Jornadas x Apps", "EARoot/EA2/EA21.htm", "175.png", "414", "0", "", "Logical diagram0","{D56FB90E-EB7A-4787-8857-39195131498E}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "Jornada de Contas a Receber (VI)", "EARoot/EA2/EA23.htm", "175.png", "409", "0", "", "Logical diagram0","{C1D21F2F-5801-44b6-8E65-A14A7400A29F}");
+tocTab[tocTab.length] = new Array("0.2:5", "", "Jornada de Contas a Receber (VG)", "EARoot/EA2/EA25.htm", "175.png", "410", "0", "", "Logical diagram0","{2F82157C-4E81-4a65-9F23-1582C4CE85F3}");
+tocTab[tocTab.length] = new Array("0.2:6", "", "VP Finanças", "EARoot/EA2/EA27.htm", "175.png", "408", "0", "", "Logical diagram0","{F80AEAF6-3404-4f39-BA7F-4CA8F6213226}");
+tocTab[tocTab.length] = new Array("0.2:7", "", "VP Operações", "EARoot/EA2/EA29.htm", "175.png", "417", "0", "", "Logical diagram0","{CB678276-5497-4350-ABD2-5FB5A0FF46CB}");
+tocTab[tocTab.length] = new Array("0.2:8", "", "VP Mkt", "EARoot/EA2/EA31.htm", "175.png", "418", "0", "", "Logical diagram0","{089DA34C-F76F-4945-A10B-F94CFD6786AA}");
+tocTab[tocTab.length] = new Array("0.2:9", "", "VP Comercial", "EARoot/EA2/EA33.htm", "175.png", "420", "0", "", "Logical diagram0","{877950A3-B5F4-4c19-A7E3-3930E094A8D0}");
+tocTab[tocTab.length] = new Array("0.2:10", "", "VP Franquias", "EARoot/EA2/EA35.htm", "175.png", "421", "0", "", "Logical diagram0","{5DA910BA-5587-4e18-8975-E74F5AE5B1FE}");
+tocTab[tocTab.length] = new Array("0.2:11", "", "Jornada de Contas a Pagar - Process", "EARoot/EA2/EA37.htm", "175.png", "412", "0", "", "Logical diagram0","{DA681E47-15C0-4a5e-9B59-2507A011C286}");
+tocTab[tocTab.length] = new Array("0.2:12", "", "Jornada da Tesouraria", "EARoot/EA2/EA39.htm", "175.png", "411", "0", "", "Logical diagram0","{3E8CA5B3-48F0-4e00-B6DF-393214EF7B33}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Jornadas", "EARoot/EA2/EA1/EA320.htm", "4.png", "", "", "{65A10175-2432-4470-BC27-209F4089DE02}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "1", "Location", "EARoot/EA2/EA2/EA493.htm", "4.png", "", "", "{46B3F329-2957-4c3d-B304-D20C3B6F2068}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "1", "Process", "EARoot/EA2/EA3/EA560.htm", "4.png", "", "", "{0B637FCE-5F06-4f66-849D-3FC2DF1425A7}", "Package");

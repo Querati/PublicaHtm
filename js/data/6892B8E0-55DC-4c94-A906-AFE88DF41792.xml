@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.4.3.2.2:1", "", "Compute Devices", "EARoot/EA4/EA3/EA2/EA2/EA523.htm", "175.png", "3053", "0", "", "Logical diagram0","{3B079DEF-504F-42c2-AEB4-8B0C00F0E66F}");
-tocTab[tocTab.length] = new Array("0.4.3.2.2.1", "1", "Desktops", "EARoot/EA4/EA3/EA2/EA2/EA1/EA533.htm", "4.png", "", "", "{52BF3004-2196-4a2e-859F-9AD9190CB72C}", "Package");
-tocTab[tocTab.length] = new Array("0.4.3.2.2.2", "1", "Laptops", "EARoot/EA4/EA3/EA2/EA2/EA2/EA536.htm", "4.png", "", "", "{F138AF81-BCD0-4e81-B464-18EE6FCDBD57}", "Package");
-tocTab[tocTab.length] = new Array("0.4.3.2.2.3", "1", "Mobille Devices", "EARoot/EA4/EA3/EA2/EA2/EA3/EA539.htm", "4.png", "", "", "{46F9EAAA-2F8B-4c28-B73C-AE1D0B08CA9D}", "Package");
-tocTab[tocTab.length] = new Array("0.4.3.2.2.4", "1", "Servers", "EARoot/EA4/EA3/EA2/EA2/EA4/EA543.htm", "4.png", "", "", "{F20DF84E-BE38-4d94-BA09-E1F6C3271E8D}", "Package");
-tocTab[tocTab.length] = new Array("0.4.3.2.2.5", "1", "Wearables", "EARoot/EA4/EA3/EA2/EA2/EA5/EA546.htm", "4.png", "", "", "{B2C39E77-301D-4418-A0F4-3D61FB747E19}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.3.2.3:1", "", "Compute Devices", "EARoot/EA4/EA3/EA3/EA2/EA3/EA1987.htm", "175.png", "54", "0", "", "Logical diagram0","{3B079DEF-504F-42c2-AEB4-8B0C00F0E66F}");
+tocTab[tocTab.length] = new Array("0.4.3.3.2.3.1", "1", "Desktops", "EARoot/EA4/EA3/EA3/EA2/EA3/EA1/EA1997.htm", "4.png", "", "", "{52BF3004-2196-4a2e-859F-9AD9190CB72C}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.3.2.3.2", "1", "Laptops", "EARoot/EA4/EA3/EA3/EA2/EA3/EA2/EA2000.htm", "4.png", "", "", "{F138AF81-BCD0-4e81-B464-18EE6FCDBD57}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.3.2.3.3", "1", "Mobille Devices", "EARoot/EA4/EA3/EA3/EA2/EA3/EA3/EA2003.htm", "4.png", "", "", "{46F9EAAA-2F8B-4c28-B73C-AE1D0B08CA9D}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.3.2.3.4", "1", "Servers", "EARoot/EA4/EA3/EA3/EA2/EA3/EA4/EA2007.htm", "4.png", "", "", "{F20DF84E-BE38-4d94-BA09-E1F6C3271E8D}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.3.2.3.5", "1", "Wearables", "EARoot/EA4/EA3/EA3/EA2/EA3/EA5/EA2010.htm", "4.png", "", "", "{B2C39E77-301D-4418-A0F4-3D61FB747E19}", "Package");

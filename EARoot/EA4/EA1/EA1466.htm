@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Princípios de Arquitetura</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA1467.png" usemap="#EA1467" border="0" />
+
+<MAP NAME="EA1467">
+<area shape="rect" coords="604,439,844,459" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205434/Embrace+Simplicity" target="_top">
+<area shape="rect" coords="604,404,844,424" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205433/Achieve+Performance+Expectations" target="_top">
+<area shape="rect" coords="604,369,844,389" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205432/Automate+Everything" target="_top">
+<area shape="rect" coords="604,334,844,354" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205431/Aim+for+Interoperability" target="_top">
+<area shape="rect" coords="604,299,844,319" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205522/Design+for+Observability+and+Resiliency" target="_top">
+<area shape="rect" coords="604,264,844,284" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205429/Develop+Asynchronous+Interactions" target="_top">
+<area shape="rect" coords="604,229,844,249" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205428/Build+Stateless+Services" target="_top">
+<area shape="rect" coords="604,194,844,214" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205427/Loosely+Couple+Components" target="_top">
+<area shape="rect" coords="604,159,844,179" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205426/Design+with+Separation+of+Concerns" target="_top">
+<area shape="rect" coords="141,503,580,525" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205422/Architecture+Principles" target="_top">
+<area shape="rect" coords="604,124,844,144" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205425/Treat+Data+as+an+Asset" target="_top">
+<area shape="rect" coords="604,89,844,109" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205424/Begin+with+Security+Risk+Privacy+and+Ethics+in+Mind" target="_top">
+<area shape="rect" coords="604,54,844,74" href="https://prudential.atlassian.net/wiki/spaces/GTA/pages/158205423/Align+to+Strategy" target="_top">
+<area shape="rect" coords="10,502,142,527" href="EA1492.htm" target="_self">
+<area shape="rect" coords="10,7,406,58" href="EA1491.htm" target="_self">
+<area shape="rect" coords="10,71,580,480" href="EA1490.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Princípios de Arquitetura : Technology Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/10/2022 15:34:07</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">13/02/2023 14:02:09</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">spe003</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{BDA752C1-C802-43a5-9545-59FB029E6A3D}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

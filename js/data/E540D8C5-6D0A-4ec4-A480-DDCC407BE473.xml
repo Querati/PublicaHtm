@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.6.3.1", "", "Comercial", "EARoot/EA6/EA3/EA1/EA3078.htm", "4.png", "", "", "{9A7E1A34-42D6-43ac-B580-C2999F5A4B4E}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.2", "", "Controles Internos", "EARoot/EA6/EA3/EA2/EA3079.htm", "4.png", "", "", "{75211F4B-6E73-4127-BEB7-39111E484820}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.3", "", "Jurídico", "EARoot/EA6/EA3/EA3/EA3080.htm", "4.png", "", "", "{2A9C2C8A-38A1-48a5-A737-F89C9148487B}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.4", "", "Mkt & Digital", "EARoot/EA6/EA3/EA4/EA3081.htm", "4.png", "", "", "{E062D37B-7CEB-419c-9C98-F7A304D51572}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.5", "", "Parcerias Comerciais - PEM", "EARoot/EA6/EA3/EA5/EA3082.htm", "4.png", "", "", "{10CA723F-8BE0-4922-995C-689068D49A76}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.6", "", "RH", "EARoot/EA6/EA3/EA6/EA3083.htm", "4.png", "", "", "{11ECDD34-2CBF-428f-BA47-18A2E8F75D66}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.7", "", "TI", "EARoot/EA6/EA3/EA7/EA3084.htm", "4.png", "", "", "{2E30A2C1-D68A-4ea8-9D3E-864CB9813BB9}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.8", "", "Auditoria", "EARoot/EA6/EA3/EA8/EA3085.htm", "4.png", "", "", "{65FB11DF-7AF4-4bce-A2C1-1A7386374825}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.9", "", "Financeiro", "EARoot/EA6/EA3/EA9/EA3086.htm", "4.png", "", "", "{E55F4F66-E21C-45e4-ACDB-A00C5F28C2CF}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.10", "", "Operações", "EARoot/EA6/EA3/EA10/EA3087.htm", "4.png", "", "", "{229E0227-D2BF-4dd1-8F68-AA0751BEB047}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.11", "", "Compensation e Consultoria a Franquia", "EARoot/EA6/EA3/EA11/EA3088.htm", "4.png", "", "", "{7A16B010-46F2-4a10-8089-A372C9DF9F01}", "Package");

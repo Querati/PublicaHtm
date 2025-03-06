@@ -1,8 +1,6 @@
-tocTab[tocTab.length] = new Array("0.2:1", "", "Princípios de Arquitetura", "EARoot/EA2/EA15.htm", "175.png", "3305", "0", "", "Logical diagram0","{BDA752C1-C802-43a5-9545-59FB029E6A3D}");
-tocTab[tocTab.length] = new Array("0.2:2", "", "Concepts and Definitions", "EARoot/EA2/EA17.htm", "175.png", "3268", "0", "", "Logical diagram0","{DE7849D7-9895-4082-AB7B-24EAC76507A0}");
-tocTab[tocTab.length] = new Array("0.2:3", "", "Estratégias e Referências", "EARoot/EA2/EA19.htm", "175.png", "3270", "0", "", "Logical diagram0","{F42C7473-382C-40da-8A6D-6EC1240FF6CA}");
-tocTab[tocTab.length] = new Array("0.2:4", "", "A Linguagem ArchiMate", "EARoot/EA2/EA21.htm", "175.png", "3272", "0", "", "Logical diagram0","{5F2A1D79-5B7D-4e71-802B-DA17AED8F317}");
-tocTab[tocTab.length] = new Array("0.2:5", "", "Frameworks de Arquitetura utilizados", "EARoot/EA2/EA23.htm", "175.png", "3273", "0", "", "Logical diagram0","{E8D44F6C-E4E2-4b45-B3F4-6E91E66FE7C7}");
-tocTab[tocTab.length] = new Array("0.2:6", "", "Conceitos e Definições de Arquitetura Corporativa da PII", "EARoot/EA2/EA25.htm", "175.png", "3274", "0", "", "Logical diagram0","{EE3F09F3-9C06-4413-85B7-616C514AA421}");
-tocTab[tocTab.length] = new Array("0.2:7", "", "Framework de Tecnologia da PII", "EARoot/EA2/EA27.htm", "175.png", "3275", "0", "", "Logical diagram0","{DA787322-C54D-49bb-977C-C8B03E422003}");
-tocTab[tocTab.length] = new Array("0.2:8", "", "Frameworks e Modelos de Gestão", "EARoot/EA2/EA29.htm", "175.png", "3276", "0", "", "Logical diagram0","{454256B4-5846-465b-8BDF-75F9110DF36D}");
+tocTab[tocTab.length] = new Array("0.4.1:1", "", "Estratégia de Arquitetura", "EARoot/EA4/EA1/EA1464.htm", "175.png", "527", "0", "", "Logical diagram0","{413AEACB-5CD2-487f-830E-BAB633A39B00}");
+tocTab[tocTab.length] = new Array("0.4.1:2", "", "Princípios de Arquitetura", "EARoot/EA4/EA1/EA1466.htm", "175.png", "206", "0", "", "Logical diagram0","{BDA752C1-C802-43a5-9545-59FB029E6A3D}");
+tocTab[tocTab.length] = new Array("0.4.1:3", "", "Conceitos e Definições da Arquitetura PoB", "EARoot/EA4/EA1/EA1468.htm", "175.png", "198", "0", "", "Logical diagram0","{DE7849D7-9895-4082-AB7B-24EAC76507A0}");
+tocTab[tocTab.length] = new Array("0.4.1:4", "", "Referências e Frameworks", "EARoot/EA4/EA1/EA1470.htm", "175.png", "200", "0", "", "Logical diagram0","{F42C7473-382C-40da-8A6D-6EC1240FF6CA}");
+tocTab[tocTab.length] = new Array("0.4.1:5", "", "A Linguagem ArchiMate", "EARoot/EA4/EA1/EA1472.htm", "175.png", "201", "0", "", "Logical diagram0","{5F2A1D79-5B7D-4e71-802B-DA17AED8F317}");
+tocTab[tocTab.length] = new Array("0.4.1:6", "", "Frameworks e Modelos de Gestão", "EARoot/EA4/EA1/EA1474.htm", "175.png", "202", "0", "", "Logical diagram0","{454256B4-5846-465b-8BDF-75F9110DF36D}");

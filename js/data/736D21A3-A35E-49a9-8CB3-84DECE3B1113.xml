@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.4.5.3.3:1", "", "Security Monitoring ", "EARoot/EA4/EA5/EA3/EA3/EA796.htm", "175.png", "3068", "0", "", "Logical diagram0","{57891642-88E0-441a-A1A0-E322AC1243E0}");
-tocTab[tocTab.length] = new Array("0.4.5.3.3:2", "", "«ArchiMate_TechnologyService» Dynatrace", "EARoot/EA4/EA5/EA3/EA3/EA799.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18652", "0", "", "Activity0","{EDE0E10D-161C-4b65-BA98-27580C52AA7F}");
+tocTab[tocTab.length] = new Array("0.4.3.5.3.3:1", "", "Security Monitoring ", "EARoot/EA4/EA3/EA5/EA3/EA3/EA2260.htm", "175.png", "69", "0", "", "Logical diagram0","{57891642-88E0-441a-A1A0-E322AC1243E0}");
+tocTab[tocTab.length] = new Array("0.4.3.5.3.3:2", "", "«ArchiMate_TechnologyService» Dynatrace", "EARoot/EA4/EA3/EA5/EA3/EA3/EA2263.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E502", "0", "", "Activity0","{EDE0E10D-161C-4b65-BA98-27580C52AA7F}");

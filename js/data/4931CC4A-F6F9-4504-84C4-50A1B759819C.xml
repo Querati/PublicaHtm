@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.6.2:1", "", "Macroprocessos Comercial", "EARoot/EA6/EA2/EA2911.htm", "175.png", "360", "0", "", "Logical diagram0","{87FF7D0E-C319-40ba-B25A-F780E1B2206F}");
+tocTab[tocTab.length] = new Array("0.6.2.1", "1", "Jornada do Cliente", "EARoot/EA6/EA2/EA1/EA2922.htm", "4.png", "", "", "{CFE27C79-C24E-43ff-9D02-FBF9B9CA3DFE}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.2", "1", "Marketing Estratégico", "EARoot/EA6/EA2/EA2/EA2959.htm", "4.png", "", "", "{1589BD78-11C7-4f87-801D-05C1712BD78F}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.3", "1", "Marketing Promocional ", "EARoot/EA6/EA2/EA3/EA2995.htm", "4.png", "", "", "{96A33A5B-E1BE-404f-A85D-F60E20FED211}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.4", "1", "PRU Franchise", "EARoot/EA6/EA2/EA4/EA3018.htm", "4.png", "", "", "{CA9EC10B-69DE-4dd0-9E81-52D3FBC95521}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.5", "1", "RCMO", "EARoot/EA6/EA2/EA5/EA3022.htm", "4.png", "", "", "{DF6156ED-FE79-41b0-BCFA-2605837A2349}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.6", "1", "Jornada para se tornar um Life Planner", "EARoot/EA6/EA2/EA6/EA3053.htm", "4.png", "", "", "{81A4BFF1-E8DF-4a07-BD25-82E8B494B14E}", "Package");

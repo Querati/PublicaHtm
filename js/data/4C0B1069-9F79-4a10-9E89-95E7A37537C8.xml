@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.5.10:1", "", "PowerEdge-Oracle", "EARoot/EA3/EA4/EA2/EA5/EA10/EA1392.htm", "189.png", "292", "0", "", "Analysis diagram0","{F6DC5D6D-3781-479f-B689-172B7025B101}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.10:2", "", "DataCenter RJ", "EARoot/EA3/EA4/EA2/EA5/EA10/EA1395.htm", "25.png", "E1685", "0", "", "Object0","{B8FF585B-5A79-4ff1-9278-AAEC594697A3}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.10:3", "", "On-Premise", "EARoot/EA3/EA4/EA2/EA5/EA10/EA1397.htm", "25.png", "E1686", "0", "", "Object0","{D779D3A3-3C6B-4dd5-86D8-EA727A102C42}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.10.1", "1", "DataCenter RJ", "EARoot/EA3/EA4/EA2/EA5/EA10/EA1/EA1402.htm", "4.png", "", "", "{6B03FEA8-6D5D-4f23-A108-6A8B00EEFEBC}", "Package");

@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Finance Engine Arquitetura Técnica</title>
+<link href="../../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA775.png" usemap="#EA775" border="0" />
+
+<MAP NAME="EA775">
+<area shape="rect" coords="32,718,122,788" href="../../../../../../EA3/EA2/EA903.htm" target="_self">
+<area shape="rect" coords="867,2605,957,2675" href="../../../../../../EA3/EA3/EA990.htm" target="_self">
+<area shape="rect" coords="654,689,759,759" href="../../../../../../../EA4/EA3/EA1/EA3/EA4/EA1635.htm" target="_self">
+<area shape="rect" coords="10,10,200,83" href="EA790.htm" target="_self">
+<area shape="rect" coords="862,2210,967,2280" href="../../../../../../EA4/EA1/EA1/EA1050.htm" target="_self">
+<area shape="rect" coords="49,2333,154,2403" href="EA785.htm" target="_self">
+<area shape="rect" coords="266,2333,371,2403" href="../../../../../../EA4/EA1/EA13/EA1208.htm" target="_self">
+<area shape="rect" coords="482,2333,587,2403" href="../../../../../../EA4/EA1/EA13/EA1209.htm" target="_self">
+<area shape="rect" coords="482,2210,587,2280" href="../../../../../../EA4/EA1/EA11/EA1185.htm" target="_self">
+<area shape="rect" coords="377,1920,482,1990" href="../../../../../../EA4/EA1/EA1/EA1065.htm" target="_self">
+<area shape="rect" coords="862,2083,967,2153" href="EA788.htm" target="_self">
+<area shape="rect" coords="862,1889,967,1959" href="../../../../../../EA4/EA1/EA1/EA1069.htm" target="_self">
+<area shape="rect" coords="862,1579,967,1649" href="EA783.htm" target="_self">
+<area shape="rect" coords="377,1579,482,1649" href="EA784.htm" target="_self">
+<area shape="rect" coords="377,1420,482,1490" href="../../../../../../EA4/EA1/EA11/EA1189.htm" target="_self">
+<area shape="rect" coords="643,1579,748,1649" href="../../../../../../EA4/EA1/EA1/EA1068.htm" target="_self">
+<area shape="rect" coords="1359,364,1464,434" href="EA789.htm" target="_self">
+<area shape="rect" coords="862,1234,967,1304" href="EA782.htm" target="_self">
+<area shape="rect" coords="377,1234,482,1304" href="EA781.htm" target="_self">
+<area shape="rect" coords="1138,1116,1243,1186" href="../../../../../../EA4/EA1/EA13/EA1207.htm" target="_self">
+<area shape="rect" coords="377,1116,482,1186" href="../../../../../../EA4/EA1/EA1/EA1066.htm" target="_self">
+<area shape="rect" coords="862,1116,967,1186" href="../../../../../../EA4/EA1/EA8/EA1119.htm" target="_self">
+<area shape="rect" coords="643,1116,748,1186" href="../../../../../../EA4/EA1/EA1/EA1067.htm" target="_self">
+<area shape="rect" coords="1140,689,1245,759" href="../../../../../../../EA4/EA3/EA1/EA3/EA1/EA1625.htm" target="_self">
+<area shape="rect" coords="175,572,280,642" href="EA786.htm" target="_self">
+<area shape="rect" coords="654,572,759,642" href="EA787.htm" target="_self">
+<area shape="rect" coords="654,469,759,539" href="../../../../../../../EA4/EA3/EA3/EA2/EA1/EA1957.htm" target="_self">
+<area shape="rect" coords="654,364,759,434" href="../../../../../../../EA4/EA3/EA1/EA3/EA5/EA1638.htm" target="_self">
+<area shape="rect" coords="831,201,936,271" href="../../../../../../EA1/EA647.htm" target="_self">
+<area shape="rect" coords="175,363,280,433" href="../../../../../../EA1/EA649.htm" target="_self">
+<area shape="rect" coords="483,201,588,271" href="../../../../../../EA1/EA648.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Finance Engine Arquitetura Técnica : Business Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">17/05/2022 11:08:50</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">02/02/2024 09:10:05</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">spe003</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{EC1FB213-DDF6-4ecc-823F-16141DF019F3}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

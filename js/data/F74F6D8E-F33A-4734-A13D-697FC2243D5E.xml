@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.4.3.1:1", "", "Network Services", "EARoot/EA4/EA3/EA1/EA408.htm", "175.png", "3033", "0", "", "Logical diagram0","{3DB2F48E-C74A-4f36-9A87-DAB9633608A6}");
-tocTab[tocTab.length] = new Array("0.4.3.1.1", "1", "Network", "EARoot/EA4/EA3/EA1/EA1/EA415.htm", "4.png", "", "", "{E0AC2B80-8900-4b9e-A09B-E91538C35081}", "Package");
-tocTab[tocTab.length] = new Array("0.4.3.1.2", "1", "Network Devices", "EARoot/EA4/EA3/EA1/EA2/EA462.htm", "4.png", "", "", "{7AA27A5E-BF2F-47d5-9E4D-836B98C30D54}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.3.1:1", "", "Network Services", "EARoot/EA4/EA3/EA3/EA1/EA1866.htm", "175.png", "34", "0", "", "Logical diagram0","{3DB2F48E-C74A-4f36-9A87-DAB9633608A6}");
+tocTab[tocTab.length] = new Array("0.4.3.3.1.1", "1", "Network", "EARoot/EA4/EA3/EA3/EA1/EA1/EA1873.htm", "4.png", "", "", "{E0AC2B80-8900-4b9e-A09B-E91538C35081}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.3.1.2", "1", "Network Devices", "EARoot/EA4/EA3/EA3/EA1/EA2/EA1920.htm", "4.png", "", "", "{7AA27A5E-BF2F-47d5-9E4D-836B98C30D54}", "Package");

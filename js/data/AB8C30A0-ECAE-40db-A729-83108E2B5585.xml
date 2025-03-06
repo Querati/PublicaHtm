@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.7.3.3.1.1:1", "", "New Finance Platform", "EARoot/EA7/EA3/EA3/EA1/EA1/EA1125.htm", "175.png", "3260", "0", "", "Logical diagram0","{BF2406BC-7816-48b2-A7B5-8478FADEF456}");
-tocTab[tocTab.length] = new Array("0.7.3.3.1.1.1", "1", "Finance Engine", "EARoot/EA7/EA3/EA3/EA1/EA1/EA1/EA1135.htm", "4.png", "", "", "{2BC61BB1-AC15-47a2-9FA4-C22284865F52}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1.1.2:1", "", "New Finance Platform", "EARoot/EA3/EA2/EA1/EA1/EA2/EA723.htm", "175.png", "190", "0", "", "Logical diagram0","{BF2406BC-7816-48b2-A7B5-8478FADEF456}");
+tocTab[tocTab.length] = new Array("0.3.2.1.1.2.1", "1", "Finance Engine", "EARoot/EA3/EA2/EA1/EA1/EA2/EA1/EA735.htm", "4.png", "", "", "{2BC61BB1-AC15-47a2-9FA4-C22284865F52}", "Package");

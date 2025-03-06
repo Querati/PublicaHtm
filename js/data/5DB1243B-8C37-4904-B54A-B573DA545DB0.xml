@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.5.2.1", "", "Business Process Management", "EARoot/EA5/EA2/EA1/EA2887.htm", "4.png", "", "", "{0AB9DA2F-A420-4330-A8C9-39DE38D01C9E}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2", "", "Information Technology", "EARoot/EA5/EA2/EA2/EA2888.htm", "4.png", "", "", "{F76255D1-ABCE-465d-A70D-FF2A77E24403}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.3", "", "Social CRM", "EARoot/EA5/EA2/EA3/EA2889.htm", "4.png", "", "", "{7E4247A3-4B75-45f1-A0AC-F7D90AA7E7BA}", "Package");

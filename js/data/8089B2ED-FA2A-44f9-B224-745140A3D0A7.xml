@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.5.7:1", "", "Aquisition/Logistic", "EARoot/EA3/EA4/EA2/EA5/EA7/EA1370.htm", "189.png", "278", "0", "", "Analysis diagram0","{64D31F37-9A99-4294-8F41-7B62115DE370}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.7:2", "", "Aquisitions PO Openning", "EARoot/EA3/EA4/EA2/EA5/EA7/EA1373.htm", "25.png", "E1619", "0", "", "Object0","{45624F37-1583-421b-BB9A-757E317E8AB3}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.7:3", "", "Contract Migration Tool", "EARoot/EA3/EA4/EA2/EA5/EA7/EA1374.htm", "25.png", "E1623", "0", "", "Object0","{50A1EC89-D93E-4ee2-9B68-4E761609AF38}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.7:4", "", "Equipments Stocked on Destination", "EARoot/EA3/EA4/EA2/EA5/EA7/EA1375.htm", "25.png", "E1622", "0", "", "Object0","{E815F519-C76E-4cfa-95A9-25CD42441130}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.7:5", "", "PO Approval", "EARoot/EA3/EA4/EA2/EA5/EA7/EA1376.htm", "25.png", "E1620", "0", "", "Object0","{6F3D3D66-66B7-4f2e-B67F-478AC6F411FB}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.7:6", "", "Send Equipments to POB", "EARoot/EA3/EA4/EA2/EA5/EA7/EA1377.htm", "25.png", "E1621", "0", "", "Object0","{6ADF82AB-6C8A-4611-9580-EF6E2932A299}");

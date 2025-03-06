@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Arquitetura Intencional</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA3092.png" usemap="#EA3092" border="0" />
+
+<MAP NAME="EA3092">
+<area shape="rect" coords="146,399,599,474" href="https://prudentialus.sharepoint.com/sites/DIY0257/pobenterprisedata/SitePages/Home.aspx" target="_top">
+<area shape="rect" coords="146,300,359,374" href="https://confluence.prudential.com/pages/viewpage.action?pageId=198248168" target="_top">
+<area shape="rect" coords="139,109,589,183" href="https://confluence.prudential.com/pages/viewpage.action?pageId=231719986" target="_top">
+<area shape="rect" coords="606,10,722,474" href="https://prudentialus.sharepoint.com/sites/prucloud/SitePages/CloudDashboard.aspx" target="_top">
+<area shape="rect" coords="139,198,589,273" href="https://confluence.prudential.com/display/PICW/Guia+do+desenvolvedor" target="_top">
+<area shape="rect" coords="10,15,117,477" href="https://confluence.prudential.com/display/AR/Architecture+Governance+Process" target="_top">
+<area shape="rect" coords="378,302,588,372" href="EA3093.htm" target="_self">
+<area shape="rect" coords="499,15,589,85" href="EA3095.htm" target="_self">
+<area shape="rect" coords="378,15,468,85" href="EA3103.htm" target="_self">
+<area shape="rect" coords="262,15,352,85" href="EA3111.htm" target="_self">
+<area shape="rect" coords="139,15,229,85" href="EA3109.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Arquitetura Intencional : Application Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">01/06/2023 16:27:56</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">26/06/2023 14:21:07</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">spe003</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{83807C65-76F9-4126-860B-8DDFB1B25F67}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.5.4:1", "", "Backup", "EARoot/EA3/EA4/EA2/EA5/EA4/EA1349.htm", "189.png", "289", "0", "", "Analysis diagram0","{9CF0C4B1-7EE0-46e0-A25E-08013F620D59}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.4:2", "", "Dell Backup", "EARoot/EA3/EA4/EA2/EA5/EA4/EA1352.htm", "25.png", "E1651", "0", "", "Object0","{C4B1AB4C-62C0-4658-93C3-62E63C543B0F}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.4:3", "", "Object1", "EARoot/EA3/EA4/EA2/EA5/EA4/EA1353.htm", "25.png", "E1629", "0", "", "Object0","{0DB28986-E384-4abd-B00F-7E4C2038C447}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.4:4", "", "Physical Server Backup Jobs", "EARoot/EA3/EA4/EA2/EA5/EA4/EA1354.htm", "25.png", "E1652", "0", "", "Object0","{766B1D52-43F8-48e8-BFA5-A2E9D2580E4A}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.4:5", "", "Virtual Server Backup Jobs", "EARoot/EA3/EA4/EA2/EA5/EA4/EA1355.htm", "25.png", "E1653", "0", "", "Object0","{6DF4CE5A-22CF-400e-81D6-26D8FC4F2056}");

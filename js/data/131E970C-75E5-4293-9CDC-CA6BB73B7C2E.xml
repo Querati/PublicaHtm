@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.4.4.1.1.1.4:1", "", "Calendar", "EARoot/EA4/EA4/EA1/EA1/EA1/EA4/EA2430.htm", "175.png", "262", "0", "", "Logical diagram0","{28C1D641-D801-4665-A1EF-7DEDDD6D632A}");
+tocTab[tocTab.length] = new Array("0.4.4.1.1.1.4:2", "", "Capability Assessments", "EARoot/EA4/EA4/EA1/EA1/EA1/EA4/EA2432.htm", "175.png", "261", "0", "", "Logical diagram0","{9FEDA931-CD81-439c-95A4-82F17A82551D}");
+tocTab[tocTab.length] = new Array("0.4.4.1.1.1.4:3", "", "Compliance Assessments", "EARoot/EA4/EA4/EA1/EA1/EA1/EA4/EA2434.htm", "175.png", "260", "0", "", "Logical diagram0","{716FE845-8EEB-4368-BC3C-B4BD0CE15A11}");
+tocTab[tocTab.length] = new Array("0.4.4.1.1.1.4:4", "", "Decision Log", "EARoot/EA4/EA4/EA1/EA1/EA1/EA4/EA2436.htm", "175.png", "259", "0", "", "Logical diagram0","{772467F2-86F8-4e83-A67A-E1AE222CDDFB}");
+tocTab[tocTab.length] = new Array("0.4.4.1.1.1.4:5", "", "Performance Measurement", "EARoot/EA4/EA4/EA1/EA1/EA1/EA4/EA2438.htm", "175.png", "264", "0", "", "Logical diagram0","{40EB5A84-6F11-4b1b-8939-2803FCAE99E1}");
+tocTab[tocTab.length] = new Array("0.4.4.1.1.1.4:6", "", "Project Portfolio", "EARoot/EA4/EA4/EA1/EA1/EA1/EA4/EA2440.htm", "175.png", "263", "0", "", "Logical diagram0","{2B923DFE-F1FB-411c-A1B5-B572943B5CC1}");

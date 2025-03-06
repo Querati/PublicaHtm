@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>RCMO</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA3021.png" usemap="#EA3021" border="0" />
+
+<MAP NAME="EA3021">
+<area shape="rect" coords="886,295,1021,370" href="EA3034.htm" target="_self">
+<area shape="rect" coords="741,295,876,370" href="EA3044.htm" target="_self">
+<area shape="rect" coords="596,295,731,370" href="EA3033.htm" target="_self">
+<area shape="rect" coords="886,143,1021,218" href="EA3045.htm" target="_self">
+<area shape="rect" coords="740,143,875,218" href="EA3038.htm" target="_self">
+<area shape="rect" coords="594,143,729,218" href="EA3043.htm" target="_self">
+<area shape="rect" coords="451,295,586,370" href="EA3039.htm" target="_self">
+<area shape="rect" coords="306,295,441,370" href="EA3046.htm" target="_self">
+<area shape="rect" coords="161,295,296,370" href="EA3032.htm" target="_self">
+<area shape="rect" coords="16,295,151,370" href="EA3037.htm" target="_self">
+<area shape="rect" coords="448,143,583,218" href="EA3035.htm" target="_self">
+<area shape="rect" coords="302,143,437,218" href="EA3041.htm" target="_self">
+<area shape="rect" coords="156,143,291,218" href="EA3036.htm" target="_self">
+<area shape="rect" coords="10,143,145,218" href="EA3040.htm" target="_self">
+<area shape="rect" coords="448,10,583,85" href="EA3042.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">RCMO : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">15/08/2023 16:33:56</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">15/08/2023 16:54:38</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">X253576</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{5C17B77E-F5E1-4495-A2CE-4A2EA28AD787}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

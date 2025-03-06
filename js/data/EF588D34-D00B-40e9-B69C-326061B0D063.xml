@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:1", "", "Network", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1434.htm", "189.png", "286", "0", "", "Analysis diagram0","{8A98A8D6-6D8F-44ee-BFB0-43F33E1227F6}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:2", "", "AP Installation", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1437.htm", "25.png", "E1643", "0", "", "Object0","{A52A7974-2D2E-475c-8CCF-9746CE8547CF}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:3", "", "Datacenter Communication Links", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1438.htm", "25.png", "E1638", "0", "", "Object0","{94866736-797D-4b28-9F0F-B831F7DF9C22}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:4", "", "Datacenter Network Equipment Installation", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1439.htm", "25.png", "E1599", "0", "", "Object0","{AC4BEC51-4902-4afb-9C22-84FD02C345AD}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:5", "", "Datacenter Network Wiring", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1440.htm", "25.png", "E1600", "0", "", "Object0","{64E49A93-DBCC-4c7f-A511-FAB03B15E8BF}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:6", "", "Firewall", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1441.htm", "25.png", "E1637", "0", "", "Object0","{A5B6230D-7D5B-484e-B3FE-FA05E03E0C8A}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:7", "", "Offices Communication Links", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1442.htm", "25.png", "E1641", "0", "", "Object0","{30A89EC5-0023-4b11-864F-F26DA7A3BBB0}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:8", "", "Offices Network Equipment Installation", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1443.htm", "25.png", "E1639", "0", "", "Object0","{65A3EE81-8F22-477c-A325-BB6F360D9F6A}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:9", "", "Offices Network Wiring", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1444.htm", "25.png", "E1640", "0", "", "Object0","{512E38C8-1D63-416d-BB8D-2E49C6AB8A23}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.12:10", "", "Wifi Controller", "EARoot/EA3/EA4/EA2/EA5/EA12/EA1445.htm", "25.png", "E1642", "0", "", "Object0","{59593D47-06E1-4533-8C90-845DB801E6ED}");

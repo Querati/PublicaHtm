@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.4.3.1.2.4:1", "", "Routers", "EARoot/EA4/EA3/EA1/EA2/EA4/EA480.htm", "175.png", "3037", "0", "", "Logical diagram0","{1874CA06-41E0-4c9f-9620-B20B9F218343}");
-tocTab[tocTab.length] = new Array("0.4.3.1.2.4:2", "", "«ArchiMate_TechnologyService» AWS Route53", "EARoot/EA4/EA3/EA1/EA2/EA4/EA483.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18590", "0", "", "Activity0","{100C4C5C-F58A-4978-BE00-DB8F3D95222E}");
+tocTab[tocTab.length] = new Array("0.4.3.3.1.2.4:1", "", "Routers", "EARoot/EA4/EA3/EA3/EA1/EA2/EA4/EA1938.htm", "175.png", "38", "0", "", "Logical diagram0","{1874CA06-41E0-4c9f-9620-B20B9F218343}");
+tocTab[tocTab.length] = new Array("0.4.3.3.1.2.4:2", "", "«ArchiMate_TechnologyService» AWS Route53", "EARoot/EA4/EA3/EA3/EA1/EA2/EA4/EA1941.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E441", "0", "", "Activity0","{100C4C5C-F58A-4978-BE00-DB8F3D95222E}");

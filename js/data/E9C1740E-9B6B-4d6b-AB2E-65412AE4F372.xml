@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.5.1.1.1.3.1:1", "", "Systems", "EARoot/EA5/EA1/EA1/EA1/EA3/EA1/EA2669.htm", "175.png", "211", "0", "", "Logical diagram0","{A8B473D0-815A-4c46-A6AB-933EBB9E95D2}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.3.1.1", "1", "Finance Engine", "EARoot/EA5/EA1/EA1/EA1/EA3/EA1/EA1/EA2692.htm", "4.png", "", "", "{5F1A60D0-B7A8-4996-9AC5-3F7C9D79EBA5}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.3.1.2", "1", "Oracle AP", "EARoot/EA5/EA1/EA1/EA1/EA3/EA1/EA2/EA2730.htm", "4.png", "", "", "{28367670-6523-477f-89AB-82538761196A}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.3.1.3", "1", "Oracle GL (Contabilidade Geral)", "EARoot/EA5/EA1/EA1/EA1/EA3/EA1/EA3/EA2749.htm", "4.png", "", "", "{1793D8E6-68BA-4969-ADBE-4BECA90A4F58}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.3.1.4", "1", "Oracle PO (Ordem de Compra)", "EARoot/EA5/EA1/EA1/EA1/EA3/EA1/EA4/EA2768.htm", "4.png", "", "", "{1C905146-1AAC-4eb1-B70B-FF2E7262AC02}", "Package");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.3.1.5", "1", "Oracle RI (Recebimento Fiscal)", "EARoot/EA5/EA1/EA1/EA1/EA3/EA1/EA5/EA2787.htm", "4.png", "", "", "{29977C38-0F08-4184-A521-5F4FF68E5F58}", "Package");

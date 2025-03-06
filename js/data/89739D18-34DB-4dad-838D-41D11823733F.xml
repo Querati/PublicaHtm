@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.4.1.2:1", "", "Application Platforms", "EARoot/EA4/EA1/EA2/EA138.htm", "175.png", "3042", "0", "", "Logical diagram0","{F0C1622B-AA10-498b-ACF6-F20FE067AF99}");
-tocTab[tocTab.length] = new Array("0.4.1.2.1", "", "Application Servers", "EARoot/EA4/EA1/EA2/EA1/EA148.htm", "4.png", "", "", "{C59FBFD9-C64D-46c4-A27E-5DF67F1369FC}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.2.2", "", "Conversational Platforms", "EARoot/EA4/EA1/EA2/EA2/EA149.htm", "4.png", "", "", "{F757856A-BC93-4d97-B68E-A4366B50525D}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.2.3", "", "High Performance Computing", "EARoot/EA4/EA1/EA2/EA3/EA150.htm", "4.png", "", "", "{3F871EA3-692D-49c0-BBD8-271EB08F8026}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.2.4", "", "Portal Servers", "EARoot/EA4/EA1/EA2/EA4/EA151.htm", "4.png", "", "", "{8C85C9FC-E5FE-4f21-BE41-86E5A2621A2A}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.2.5", "", "Transaction Management", "EARoot/EA4/EA1/EA2/EA5/EA152.htm", "4.png", "", "", "{F682B0C1-15FB-4577-AB1D-478F29C92173}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.2.6", "", "Virtual Reality", "EARoot/EA4/EA1/EA2/EA6/EA153.htm", "4.png", "", "", "{455F0079-DC63-45b9-83E7-C227B1962988}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.2.7", "1", "Web Services", "EARoot/EA4/EA1/EA2/EA7/EA156.htm", "4.png", "", "", "{FD9A62E3-554C-4896-87B1-8292D1E185D6}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.1.2:1", "", "Application Platforms", "EARoot/EA4/EA3/EA1/EA2/EA1596.htm", "175.png", "43", "0", "", "Logical diagram0","{F0C1622B-AA10-498b-ACF6-F20FE067AF99}");
+tocTab[tocTab.length] = new Array("0.4.3.1.2.1", "", "Application Servers", "EARoot/EA4/EA3/EA1/EA2/EA1/EA1606.htm", "4.png", "", "", "{C59FBFD9-C64D-46c4-A27E-5DF67F1369FC}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.1.2.2", "", "Conversational Platforms", "EARoot/EA4/EA3/EA1/EA2/EA2/EA1607.htm", "4.png", "", "", "{F757856A-BC93-4d97-B68E-A4366B50525D}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.1.2.3", "", "High Performance Computing", "EARoot/EA4/EA3/EA1/EA2/EA3/EA1608.htm", "4.png", "", "", "{3F871EA3-692D-49c0-BBD8-271EB08F8026}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.1.2.4", "", "Portal Servers", "EARoot/EA4/EA3/EA1/EA2/EA4/EA1609.htm", "4.png", "", "", "{8C85C9FC-E5FE-4f21-BE41-86E5A2621A2A}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.1.2.5", "", "Transaction Management", "EARoot/EA4/EA3/EA1/EA2/EA5/EA1610.htm", "4.png", "", "", "{F682B0C1-15FB-4577-AB1D-478F29C92173}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.1.2.6", "", "Virtual Reality", "EARoot/EA4/EA3/EA1/EA2/EA6/EA1611.htm", "4.png", "", "", "{455F0079-DC63-45b9-83E7-C227B1962988}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.1.2.7", "1", "Web Services", "EARoot/EA4/EA3/EA1/EA2/EA7/EA1614.htm", "4.png", "", "", "{FD9A62E3-554C-4896-87B1-8292D1E185D6}", "Package");

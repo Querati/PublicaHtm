@@ -1,0 +1,689 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Marketing & Operações::SAA - Workflow</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("SAA - Workflow", " : "))</script> System of Record : Public  &lt;&lt;ArchiMate_ApplicationComponent&gt;&gt; ApplicationComponent</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">06/11/2023 14:17:08</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">08/02/2024 16:19:37</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">X253576</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{0F9AB9E8-35AD-471c-810E-FA8B3BB2524D}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA3/EA524.htm">Estorno</a>, <a href="../../../EA2/EA3/EA536.htm">Pagamento de Clientes VI - Automático</a>, <a href="../../../EA2/EA3/EA538.htm">Pagamento de Clientes VI - Manual</a>, <a href="../../../EA2/EA1/EA190.htm">Operações</a>, <a href="../../../EA2/EA1/EA200.htm">Ouvidoria</a>, <a href="../../../EA2/EA1/EA96.htm">Emissão</a>, <a href="../../../EA2/EA1/EA312.htm">UW</a>, <a href="../../../EA2/EA1/EA284.htm">Serviços Médicos</a>, <a href="../../../EA2/EA1/EA214.htm">PO</a>, <a href="../../../EA2/EA1/EA62.htm">CES</a>, <a href="../../../EA2/EA1/EA292.htm">Soluções</a>, <a href="../../../EA2/EA1/EA252.htm">Reclamação</a>, <a href="../../../EA2/EA1/EA98.htm">Emissão</a>, <a href="../../../EA2/EA1/EA88.htm">Cotações e Vendas VI</a>, <a href="../../../EA2/EA1/EA296.htm">Suporte e Vendas VI</a>, <a href="../../../EA2/EA1/EA234.htm">Projetos e Processos</a>, <a href="../../../EA2/EA1/EA208.htm">Planejamento e Gestão de Resultado</a>, <a href="../../../EA2/EA1/EA294.htm">Suporte a Vendas / Experiência do Cliente</a>, <a href="../../../EA2/EA1/EA206.htm">Planejamento e Gestão de Resultado</a>, <a href="../../../EA2/EA1/EA126.htm">Integridade Corporativa</a>, <a href="../../../EA2/EA1/EA282.htm">Serviços Corporativos </a>, <a href="../../../EA2/EA1/EA188.htm">OnBoarding</a>, <a href="../../../EA2/EA1/EA316.htm">UW VI</a>, <a href="../../../EA2/EA1/EA226.htm">Proc. Operacionais</a>, <a href="../../../EA2/EA1/EA102.htm">Escalation</a>, <a href="../../../EA2/EA1/EA218.htm">Pré e Pós Emissão</a>, <a href="../../../EA2/EA1/EA60.htm">Canal Cliente</a>, <a href="../../../EA2/EA1/EA254.htm">Relacionamento</a>, <a href="../../../EA2/EA1/EA58.htm">Benefícios VI</a>, <a href="../../../EA2/EA1/EA110.htm">Experiências dos Canais</a>, <a href="../../../EA2/EA1/EA210.htm">Planejamento,  Controle e Projetos</a>, <a href="../../../EA2/EA1/EA238.htm">Qualidade</a>, <a href="../../../EA2/EA1/EA244.htm">Qualidade / Escuta de Ligações</a>, <a href="../../../EA2/EA1/EA250.htm">Qualidade / Treinamento</a>, <a href="../../../EA2/EA1/EA242.htm">Qualidade / Comunicação </a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="FlowFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA436.htm">Cotações e Vendas VI</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1358" onclick="parent.toggleDiv('detailsDIVLinkFlow1358', 'DetailsImageLinkFlow1358')" />Details:
+							<div id="detailsDIVLinkFlow1358" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA464.htm">UW VI</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1359" onclick="parent.toggleDiv('detailsDIVLinkFlow1359', 'DetailsImageLinkFlow1359')" />Details:
+							<div id="detailsDIVLinkFlow1359" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA3/EA582.htm">Pagamento de Clientes VI - Automático</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1360" onclick="parent.toggleDiv('detailsDIVLinkFlow1360', 'DetailsImageLinkFlow1360')" />Details:
+							<div id="detailsDIVLinkFlow1360" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA450.htm">Planejamento,  Controle e Projetos</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1361" onclick="parent.toggleDiv('detailsDIVLinkFlow1361', 'DetailsImageLinkFlow1361')" />Details:
+							<div id="detailsDIVLinkFlow1361" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA451.htm">Qualidade</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1362" onclick="parent.toggleDiv('detailsDIVLinkFlow1362', 'DetailsImageLinkFlow1362')" />Details:
+							<div id="detailsDIVLinkFlow1362" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA460.htm">Relacionamento</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1363" onclick="parent.toggleDiv('detailsDIVLinkFlow1363', 'DetailsImageLinkFlow1363')" />Details:
+							<div id="detailsDIVLinkFlow1363" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA3/EA576.htm">Estorno</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1364" onclick="parent.toggleDiv('detailsDIVLinkFlow1364', 'DetailsImageLinkFlow1364')" />Details:
+							<div id="detailsDIVLinkFlow1364" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA437.htm">Planejamento e Gestão de Resultado</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1365" onclick="parent.toggleDiv('detailsDIVLinkFlow1365', 'DetailsImageLinkFlow1365')" />Details:
+							<div id="detailsDIVLinkFlow1365" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA412.htm">Experiência do Canal</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1366" onclick="parent.toggleDiv('detailsDIVLinkFlow1366', 'DetailsImageLinkFlow1366')" />Details:
+							<div id="detailsDIVLinkFlow1366" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA459.htm">Qualidade / Treinamento</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1367" onclick="parent.toggleDiv('detailsDIVLinkFlow1367', 'DetailsImageLinkFlow1367')" />Details:
+							<div id="detailsDIVLinkFlow1367" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA448.htm">Experiências dos Canais</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1368" onclick="parent.toggleDiv('detailsDIVLinkFlow1368', 'DetailsImageLinkFlow1368')" />Details:
+							<div id="detailsDIVLinkFlow1368" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA439.htm">Suporte e Vendas VI</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1369" onclick="parent.toggleDiv('detailsDIVLinkFlow1369', 'DetailsImageLinkFlow1369')" />Details:
+							<div id="detailsDIVLinkFlow1369" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA454.htm">Qualidade / Escuta de Ligações</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1370" onclick="parent.toggleDiv('detailsDIVLinkFlow1370', 'DetailsImageLinkFlow1370')" />Details:
+							<div id="detailsDIVLinkFlow1370" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA359.htm">Integridade Corporativa</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1371" onclick="parent.toggleDiv('detailsDIVLinkFlow1371', 'DetailsImageLinkFlow1371')" />Details:
+							<div id="detailsDIVLinkFlow1371" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA472.htm">Escalation</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1372" onclick="parent.toggleDiv('detailsDIVLinkFlow1372', 'DetailsImageLinkFlow1372')" />Details:
+							<div id="detailsDIVLinkFlow1372" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA428.htm">UW</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1373" onclick="parent.toggleDiv('detailsDIVLinkFlow1373', 'DetailsImageLinkFlow1373')" />Details:
+							<div id="detailsDIVLinkFlow1373" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA476.htm">Proc. Operacionais</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1374" onclick="parent.toggleDiv('detailsDIVLinkFlow1374', 'DetailsImageLinkFlow1374')" />Details:
+							<div id="detailsDIVLinkFlow1374" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA429.htm">CES</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1375" onclick="parent.toggleDiv('detailsDIVLinkFlow1375', 'DetailsImageLinkFlow1375')" />Details:
+							<div id="detailsDIVLinkFlow1375" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA427.htm">Serviços Médicos</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1376" onclick="parent.toggleDiv('detailsDIVLinkFlow1376', 'DetailsImageLinkFlow1376')" />Details:
+							<div id="detailsDIVLinkFlow1376" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA438.htm">Projetos e Processos</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1377" onclick="parent.toggleDiv('detailsDIVLinkFlow1377', 'DetailsImageLinkFlow1377')" />Details:
+							<div id="detailsDIVLinkFlow1377" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA432.htm">Reclamação</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1378" onclick="parent.toggleDiv('detailsDIVLinkFlow1378', 'DetailsImageLinkFlow1378')" />Details:
+							<div id="detailsDIVLinkFlow1378" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA442.htm">Planejamento e Gestão de Resultado</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1379" onclick="parent.toggleDiv('detailsDIVLinkFlow1379', 'DetailsImageLinkFlow1379')" />Details:
+							<div id="detailsDIVLinkFlow1379" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA471.htm">Canal Cliente</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1380" onclick="parent.toggleDiv('detailsDIVLinkFlow1380', 'DetailsImageLinkFlow1380')" />Details:
+							<div id="detailsDIVLinkFlow1380" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA3/EA583.htm">Pagamento de Clientes VI - Manual</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1381" onclick="parent.toggleDiv('detailsDIVLinkFlow1381', 'DetailsImageLinkFlow1381')" />Details:
+							<div id="detailsDIVLinkFlow1381" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA453.htm">Qualidade / Comunicação </a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1382" onclick="parent.toggleDiv('detailsDIVLinkFlow1382', 'DetailsImageLinkFlow1382')" />Details:
+							<div id="detailsDIVLinkFlow1382" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA447.htm">Benefícios VI</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1383" onclick="parent.toggleDiv('detailsDIVLinkFlow1383', 'DetailsImageLinkFlow1383')" />Details:
+							<div id="detailsDIVLinkFlow1383" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA475.htm">Pré e Pós Emissão</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1384" onclick="parent.toggleDiv('detailsDIVLinkFlow1384', 'DetailsImageLinkFlow1384')" />Details:
+							<div id="detailsDIVLinkFlow1384" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA433.htm">Soluções</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1385" onclick="parent.toggleDiv('detailsDIVLinkFlow1385', 'DetailsImageLinkFlow1385')" />Details:
+							<div id="detailsDIVLinkFlow1385" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA426.htm">Emissão</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1386" onclick="parent.toggleDiv('detailsDIVLinkFlow1386', 'DetailsImageLinkFlow1386')" />Details:
+							<div id="detailsDIVLinkFlow1386" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA449.htm">OnBoarding</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1387" onclick="parent.toggleDiv('detailsDIVLinkFlow1387', 'DetailsImageLinkFlow1387')" />Details:
+							<div id="detailsDIVLinkFlow1387" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA387.htm">Ouvidoria</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1388" onclick="parent.toggleDiv('detailsDIVLinkFlow1388', 'DetailsImageLinkFlow1388')" />Details:
+							<div id="detailsDIVLinkFlow1388" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA431.htm">PO</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1389" onclick="parent.toggleDiv('detailsDIVLinkFlow1389', 'DetailsImageLinkFlow1389')" />Details:
+							<div id="detailsDIVLinkFlow1389" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA434.htm">Emissão</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1390" onclick="parent.toggleDiv('detailsDIVLinkFlow1390', 'DetailsImageLinkFlow1390')" />Details:
+							<div id="detailsDIVLinkFlow1390" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA444.htm">Suporte a Vendas / Experiência do Cliente</a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1391" onclick="parent.toggleDiv('detailsDIVLinkFlow1391', 'DetailsImageLinkFlow1391')" />Details:
+							<div id="detailsDIVLinkFlow1391" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../../EA2/EA1/EA470.htm">Serviços Corporativos </a><br />
+						Activity «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow1392" onclick="parent.toggleDiv('detailsDIVLinkFlow1392', 'DetailsImageLinkFlow1392')" />Details:
+							<div id="detailsDIVLinkFlow1392" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">_HideUmlLinks:</td>
+				<td width="70%" class="TableRow">True</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">_defaultDiagramType:</td>
+				<td width="70%" class="TableRow">ArchiMate3::Application</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA2/EA1/EA324.htm">«ArchiMate_BusinessObject» Jornada do Life Planner</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

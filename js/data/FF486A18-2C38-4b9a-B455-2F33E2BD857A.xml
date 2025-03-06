@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.1", "1", "Motivation & Strategy Concepts", "EARoot/EA3/EA1/EA625.htm", "4.png", "", "", "{F0FEE1BD-8FD5-43e5-96F3-4CF2717C24DB}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2", "1", "Functional Domains", "EARoot/EA3/EA2/EA669.htm", "4.png", "", "", "{A00FB607-800F-4b24-9914-32A475073B79}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3", "1", "System/Function Architecture", "EARoot/EA3/EA3/EA811.htm", "4.png", "", "", "{1E2E0CF5-7424-4216-A90B-3FD3C24DCB07}", "Package");
+tocTab[tocTab.length] = new Array("0.3.4", "1", "Technical Architecture", "EARoot/EA3/EA4/EA1021.htm", "4.png", "", "", "{68A9F4FB-B802-4162-A41A-704DAC06C9CE}", "Package");

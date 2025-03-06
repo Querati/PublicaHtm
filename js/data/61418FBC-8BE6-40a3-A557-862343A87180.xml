@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:1", "", "Finance Engine", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2577.htm", "5.png", "E1213", "0", "", "Class0","{DC207DF9-8218-4d37-B870-97CDA1A91414}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:2", "", "Oracle RI (Recebimento Fiscal)", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2578.htm", "5.png", "E940", "0", "", "Class0","{02F54E65-D4AC-49a3-8FE6-268CA65FE23B}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:3", "", "Oracle GL (Contabilidade Geral)", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2579.htm", "5.png", "E1212", "0", "", "Class0","{F99E6C2A-C11E-4008-A59C-50E92761712B}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:4", "", "Oracle AP", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2580.htm", "5.png", "E938", "0", "", "Class0","{DC39D564-0496-4555-A3BD-6000EA74A48B}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:5", "", "Oracle PO (Ordem de Compra)", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2581.htm", "5.png", "E939", "0", "", "Class0","{009E3905-1596-48fd-8E2D-591B0F8291C0}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:6", "", "Cobrança", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2582.htm", "5.png", "E1361", "0", "", "Class0","{DA968150-7C39-4464-9C07-DA8055383007}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:7", "", "Pagamentos", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2583.htm", "5.png", "E1019", "0", "", "Class0","{C4856766-C5C4-4047-847A-1CEAED918E3E}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:8", "", "Oracle EBS", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2584.htm", "5.png", "E1214", "0", "", "Class0","{B3B9F71A-1EE9-4941-952B-C49F2C20D079}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:9", "", "Oracle EBS PII", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2585.htm", "5.png", "E1215", "0", "", "Class0","{47CD08CE-A1DE-48b1-B0F8-C93CB1E478C6}");
+tocTab[tocTab.length] = new Array("0.5.1.1.1.1.1:10", "", "Oracle EPM", "EARoot/EA5/EA1/EA1/EA1/EA1/EA1/EA2586.htm", "5.png", "E1216", "0", "", "Class0","{BACD482A-1A02-4738-B3C5-5D65CFE2D56A}");

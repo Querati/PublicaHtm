@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.4.5:1", "", "Security Management Services", "EARoot/EA4/EA5/EA716.htm", "175.png", "2986", "0", "", "Logical diagram0","{24D264DB-225F-4820-84E9-9FEF83847053}");
-tocTab[tocTab.length] = new Array("0.4.5.1", "1", "Identify", "EARoot/EA4/EA5/EA1/EA732.htm", "4.png", "", "", "{DCCBC0B4-BBEF-424a-8BAD-0E45DBEDCA3E}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.2", "1", "Protect", "EARoot/EA4/EA5/EA2/EA759.htm", "4.png", "", "", "{0984C19E-2730-4c59-A1F7-95BB67C733EC}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.3", "1", "Detect", "EARoot/EA4/EA5/EA3/EA786.htm", "4.png", "", "", "{22B61F82-CC2A-4b52-9DBA-8B778804A6AC}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.4", "1", "Respond", "EARoot/EA4/EA5/EA4/EA802.htm", "4.png", "", "", "{2856C7EE-8BEB-4541-96FF-2F622B6FA707}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.5", "1", "Recover", "EARoot/EA4/EA5/EA5/EA825.htm", "4.png", "", "", "{E4CF390A-0286-4635-965D-1129C29EE305}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.5:1", "", "Security Management Services", "EARoot/EA4/EA3/EA5/EA2180.htm", "175.png", "21", "0", "", "Logical diagram0","{24D264DB-225F-4820-84E9-9FEF83847053}");
+tocTab[tocTab.length] = new Array("0.4.3.5.1", "1", "Identify", "EARoot/EA4/EA3/EA5/EA1/EA2196.htm", "4.png", "", "", "{DCCBC0B4-BBEF-424a-8BAD-0E45DBEDCA3E}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.5.2", "1", "Protect", "EARoot/EA4/EA3/EA5/EA2/EA2223.htm", "4.png", "", "", "{0984C19E-2730-4c59-A1F7-95BB67C733EC}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.5.3", "1", "Detect", "EARoot/EA4/EA3/EA5/EA3/EA2250.htm", "4.png", "", "", "{22B61F82-CC2A-4b52-9DBA-8B778804A6AC}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.5.4", "1", "Respond", "EARoot/EA4/EA3/EA5/EA4/EA2266.htm", "4.png", "", "", "{2856C7EE-8BEB-4541-96FF-2F622B6FA707}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.5.5", "1", "Recover", "EARoot/EA4/EA3/EA5/EA5/EA2289.htm", "4.png", "", "", "{E4CF390A-0286-4635-965D-1129C29EE305}", "Package");

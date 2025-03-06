@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.5.6:1", "", "Server Operations", "EARoot/EA3/EA4/EA2/EA5/EA6/EA1362.htm", "189.png", "179", "0", "", "Analysis diagram0","{D031F5BC-671B-4e15-953A-F5AB230FB680}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.6:2", "", "External Access Vmware Cluster", "EARoot/EA3/EA4/EA2/EA5/EA6/EA1365.htm", "25.png", "E1635", "0", "", "Object0","{3D710508-C05C-4f43-B2F9-853EEBF62427}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.6:3", "", "Internal Access Vmware Cluster", "EARoot/EA3/EA4/EA2/EA5/EA6/EA1366.htm", "25.png", "E1632", "0", "", "Object0","{ABCD3AA7-DAB9-419d-B9A1-9DB61F08D79F}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.6:4", "", "Physical Servers - With SAN", "EARoot/EA3/EA4/EA2/EA5/EA6/EA1367.htm", "25.png", "E1634", "0", "", "Object0","{B3527BAE-229B-4c63-9248-354AD55A837E}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.6:5", "", "Physical Servers - Without SAN", "EARoot/EA3/EA4/EA2/EA5/EA6/EA1368.htm", "25.png", "E1633", "0", "", "Object0","{C45AABF6-F80B-4389-911D-9571CDF11E68}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5.6:6", "", "VXRAIL", "EARoot/EA3/EA4/EA2/EA5/EA6/EA1369.htm", "25.png", "E1631", "0", "", "Object0","{493054D7-0CFD-40f1-9A19-0AFD43E2AC1C}");

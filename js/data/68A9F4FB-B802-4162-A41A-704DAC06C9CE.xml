@@ -1,1 +1,3 @@
-tocTab[tocTab.length] = new Array("0.8:1", "", "Technical Architecture", "EARoot/EA8/EA1216.htm", "175.png", "3269", "0", "", "Logical diagram0","{EF9517EA-D819-446d-9582-F50FD1BB4892}");
+tocTab[tocTab.length] = new Array("0.3.4:1", "", "Arquitetura Técnica", "EARoot/EA3/EA4/EA1019.htm", "175.png", "199", "0", "", "Logical diagram0","{EF9517EA-D819-446d-9582-F50FD1BB4892}");
+tocTab[tocTab.length] = new Array("0.3.4.1", "1", "Service Catalog", "EARoot/EA3/EA4/EA1/EA1028.htm", "4.png", "", "", "{5958DD82-E667-431e-8BA7-5F9CDEAFCAEA}", "Package");
+tocTab[tocTab.length] = new Array("0.3.4.2", "1", "Landscapes Infra", "EARoot/EA3/EA4/EA2/EA1249.htm", "4.png", "", "", "{AFA8E2BF-3F5F-49e6-B8B2-86504E6BEFDF}", "Package");

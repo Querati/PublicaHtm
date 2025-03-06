@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.4.1", "1", "Concepts and Definitions", "EARoot/EA4/EA1/EA1476.htm", "4.png", "", "", "{5256DC8B-E786-4dd4-B71B-C6BC384E80B1}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2", "1", "Reference Architecture", "EARoot/EA4/EA2/EA1520.htm", "4.png", "", "", "{2FC69A58-D2B7-4dd7-A0AB-95950DEEE58D}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3", "1", "Technical Reference Model", "EARoot/EA4/EA3/EA1531.htm", "4.png", "", "", "{1F46C559-B99E-404a-8499-2A598C68C398}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4", "1", "Architecture Repository", "EARoot/EA4/EA4/EA2304.htm", "4.png", "", "", "{47E27C27-A8B6-4e12-91A0-D3BE3418E0C3}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5", "1", "Enterprise Continuum", "EARoot/EA4/EA5/EA2501.htm", "4.png", "", "", "{B85FA35F-0F84-44e1-99B1-4F87C0A1AABC}", "Package");

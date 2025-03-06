@@ -1,5 +1,1 @@
-tocTab[tocTab.length] = new Array("0.7.3.1", "1", "Marketing & Distribution", "EARoot/EA7/EA3/EA1/EA987.htm", "4.png", "", "", "{4911E82B-9F7D-4e7d-88B1-E968EAD46C20}", "Package");
-tocTab[tocTab.length] = new Array("0.7.3.2", "1", "Product Manufacture & Operations", "EARoot/EA7/EA3/EA2/EA1038.htm", "4.png", "", "", "{DF5D1731-7241-4a21-BA0F-22C5BB9C8A6A}", "Package");
-tocTab[tocTab.length] = new Array("0.7.3.3", "1", "Enterprise Functions", "EARoot/EA7/EA3/EA3/EA1089.htm", "4.png", "", "", "{79569768-E337-4b04-932F-36A566ABF306}", "Package");
-tocTab[tocTab.length] = new Array("0.7.3.4", "1", "Insight & Analytics", "EARoot/EA7/EA3/EA4/EA1178.htm", "4.png", "", "", "{F0297657-CC2D-4368-B5F7-2B86BD456226}", "Package");
-tocTab[tocTab.length] = new Array("0.7.3.5", "1", "Information Foundation", "EARoot/EA7/EA3/EA5/EA1199.htm", "4.png", "", "", "{B7567EF3-C563-4303-AE81-0CF6914C6FFF}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.1", "1", "Enterprise Functions", "EARoot/EA3/EA2/EA1/EA673.htm", "4.png", "", "", "{79569768-E337-4b04-932F-36A566ABF306}", "Package");
