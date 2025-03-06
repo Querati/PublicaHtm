@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.10.2:1", "", "Organization Solutions", "EARoot/EA10/EA2/EA1397.htm", "175.png", "1444", "0", "", "Logical diagram0","{18E9B499-6962-40a4-A9DB-7ADA9F448D6B}");
+tocTab[tocTab.length] = new Array("0.10.2.1", "1", "«SolutionsContinuum» Serviços Financeiros", "EARoot/EA10/EA2/EA1/EA1406.htm", "4.png", "", "", "{507C8CDB-FC0A-490e-A664-A209973FA5AA}", "Package");
+tocTab[tocTab.length] = new Array("0.10.2.2", "1", "«SolutionsContinuum» Serviços Core", "EARoot/EA10/EA2/EA2/EA1409.htm", "4.png", "", "", "{62CD7403-D419-47b9-9399-4DEE02BB764A}", "Package");
+tocTab[tocTab.length] = new Array("0.10.2.3", "1", "«SolutionsContinuum» Chanell", "EARoot/EA10/EA2/EA3/EA1412.htm", "4.png", "", "", "{0956C075-38A1-487d-85B2-EED28A0A703A}", "Package");
+tocTab[tocTab.length] = new Array("0.10.2.4", "1", "«SolutionsContinuum» Suporte ao Negócio", "EARoot/EA10/EA2/EA4/EA1415.htm", "4.png", "", "", "{E6AA9538-EA00-4c09-9F77-1A314E666CF7}", "Package");

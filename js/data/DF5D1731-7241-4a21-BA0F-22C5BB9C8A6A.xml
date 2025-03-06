@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.7.3.2:1", "", "Product Manufacture & Operations", "EARoot/EA7/EA3/EA2/EA1036.htm", "175.png", "3245", "0", "", "Logical diagram0","{CEA4C06A-3F41-4cdb-8FDF-D621BEC09B44}");
+tocTab[tocTab.length] = new Array("0.7.3.2.1", "1", "Product Manufacture", "EARoot/EA7/EA3/EA2/EA1/EA1044.htm", "4.png", "", "", "{BF2527A6-3410-466e-8093-F4F1A13A10EA}", "Package");
+tocTab[tocTab.length] = new Array("0.7.3.2.2", "1", "Cross Capability", "EARoot/EA7/EA3/EA2/EA2/EA1049.htm", "4.png", "", "", "{24E75446-BFDB-44bb-8E13-369A63FCD32E}", "Package");
+tocTab[tocTab.length] = new Array("0.7.3.2.3", "1", "Policy Administration ", "EARoot/EA7/EA3/EA2/EA3/EA1062.htm", "4.png", "", "", "{3DE8ABCF-365B-4fbf-B039-E0120D84031D}", "Package");
+tocTab[tocTab.length] = new Array("0.7.3.2.4", "1", "New Business & Underwriting", "EARoot/EA7/EA3/EA2/EA4/EA1069.htm", "4.png", "", "", "{CD2FCF03-EA2D-4ad9-8629-1101F3396B99}", "Package");
+tocTab[tocTab.length] = new Array("0.7.3.2.5", "1", "Claims Management", "EARoot/EA7/EA3/EA2/EA5/EA1081.htm", "4.png", "", "", "{AA7ABF9A-54CC-41b2-885C-F617D334399E}", "Package");

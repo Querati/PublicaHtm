@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.4.3.1.2.2:1", "", "Firewalls", "EARoot/EA4/EA3/EA1/EA2/EA2/EA471.htm", "175.png", "3034", "0", "", "Logical diagram0","{97082AD5-6984-4199-A497-BAB43797E81C}");
+tocTab[tocTab.length] = new Array("0.4.3.1.2.2:2", "", "«ArchiMate_TechnologyService» AWS WAF", "EARoot/EA4/EA3/EA1/EA2/EA2/EA474.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18585", "0", "", "Activity0","{86DBAADC-F8CA-4042-8F78-2F9B0C0CDC1C}");

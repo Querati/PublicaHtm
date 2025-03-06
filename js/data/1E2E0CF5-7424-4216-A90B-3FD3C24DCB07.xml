@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.7:1", "", "Functional Architecture", "EARoot/EA7/EA911.htm", "175.png", "3259", "0", "", "Logical diagram0","{0E65079F-358B-4c31-A7AE-717B3226F7C1}");
+tocTab[tocTab.length] = new Array("0.7.1", "1", "Strategy & Motivation", "EARoot/EA7/EA1/EA923.htm", "4.png", "", "", "{D7A4FE84-0A63-4ac6-9B32-63588533A73A}", "Package");
+tocTab[tocTab.length] = new Array("0.7.2", "1", "Aplication Architecture", "EARoot/EA7/EA2/EA938.htm", "4.png", "", "", "{43B03F83-09A9-4a1a-BE29-79E200AFB3FB}", "Package");
+tocTab[tocTab.length] = new Array("0.7.3", "1", "Functional Domains", "EARoot/EA7/EA3/EA979.htm", "4.png", "", "", "{A00FB607-800F-4b24-9914-32A475073B79}", "Package");

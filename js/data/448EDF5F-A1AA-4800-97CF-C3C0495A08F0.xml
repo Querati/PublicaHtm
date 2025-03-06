@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.4.3.2:1", "", "Plataform Services", "EARoot/EA4/EA3/EA2/EA487.htm", "175.png", "3041", "0", "", "Logical diagram0","{A124AF94-2C36-4cfc-981A-BA15C6919C6B}");
+tocTab[tocTab.length] = new Array("0.4.3.2.1", "1", "Compute", "EARoot/EA4/EA3/EA2/EA1/EA497.htm", "4.png", "", "", "{9E9FA1CE-EB9A-4fe3-9506-000610ABC973}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.2", "1", "Compute Devices", "EARoot/EA4/EA3/EA2/EA2/EA525.htm", "4.png", "", "", "{6892B8E0-55DC-4c94-A906-AFE88DF41792}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.3", "1", "Storage", "EARoot/EA4/EA3/EA2/EA3/EA549.htm", "4.png", "", "", "{7D9B09DF-647A-4d91-8484-2678AF7603BE}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.4", "1", "Storage Devices", "EARoot/EA4/EA3/EA2/EA4/EA564.htm", "4.png", "", "", "{4CD27625-D547-4d03-94C0-88F7CBEFAF4F}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.5", "1", "Input/Output Devices", "EARoot/EA4/EA3/EA2/EA5/EA577.htm", "4.png", "", "", "{DC3BF4D2-8FE4-4405-B3A7-4C0AECF56B85}", "Package");

@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.4.4.3.1:1", "", "Change Management", "EARoot/EA4/EA4/EA3/EA1/EA650.htm", "175.png", "3058", "0", "", "Logical diagram0","{C2936D42-FD32-4cf1-91F2-CC76E2D42328}");
+tocTab[tocTab.length] = new Array("0.4.4.3.1:2", "", "«ArchiMate_TechnologyService» Apache Zookeeper", "EARoot/EA4/EA4/EA3/EA1/EA653.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18620", "0", "", "Activity0","{8FB1C51E-B9E6-42c1-A231-B3E8433D2F7D}");
+tocTab[tocTab.length] = new Array("0.4.4.3.1:3", "", "«ArchiMate_TechnologyService» Drupal", "EARoot/EA4/EA4/EA3/EA1/EA654.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18621", "0", "", "Activity0","{07644600-FACC-4508-A8F2-9127A1A598FD}");

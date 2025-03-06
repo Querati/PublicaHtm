@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.11:1", "", "Service Catalog", "EARoot/EA11/EA1434.htm", "175.png", "2987", "0", "", "Logical diagram0","{91B3749C-EF33-4f7a-BAB7-3E264663294E}");
+tocTab[tocTab.length] = new Array("0.11.1", "1", "As Is - Sem Domínio", "EARoot/EA11/EA1/EA1442.htm", "4.png", "", "", "{F653F420-8721-4941-99E1-332474A23232}", "Package");
+tocTab[tocTab.length] = new Array("0.11.2", "1", "Integration Solutions", "EARoot/EA11/EA2/EA1491.htm", "4.png", "", "", "{18C299FE-F0C1-41cb-AE7B-011D0B5BB737}", "Package");
+tocTab[tocTab.length] = new Array("0.11.3", "1", "Enterprise Functions", "EARoot/EA11/EA3/EA1511.htm", "4.png", "", "", "{B26EABC9-F214-4ebe-ACD1-7D3920A9A389}", "Package");
+tocTab[tocTab.length] = new Array("0.11.4", "1", "Information Foundation", "EARoot/EA11/EA4/EA1563.htm", "4.png", "", "", "{E66DA073-18A4-4ac4-9AA4-4A787A1C44D1}", "Package");
+tocTab[tocTab.length] = new Array("0.11.5", "1", "Product Manufacture & Operations", "EARoot/EA11/EA5/EA1586.htm", "4.png", "", "", "{4BC5411F-82A9-48ae-829C-E4D4334550EA}", "Package");

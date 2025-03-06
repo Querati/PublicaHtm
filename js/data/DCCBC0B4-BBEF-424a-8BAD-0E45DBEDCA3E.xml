@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.4.5.1:1", "", "Identify", "EARoot/EA4/EA5/EA1/EA730.htm", "175.png", "3031", "0", "", "Logical diagram0","{364F866E-C7F7-49c0-8F4B-8BC98F22BD58}");
+tocTab[tocTab.length] = new Array("0.4.5.1.1", "1", "Asset Management", "EARoot/EA4/EA5/EA1/EA1/EA740.htm", "4.png", "", "", "{3BBBD321-F773-439b-AB20-E51015BC53DA}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.1.2", "1", "Business Environment", "EARoot/EA4/EA5/EA1/EA2/EA743.htm", "4.png", "", "", "{8337F1A6-4187-4221-9B0B-4C8AF5B70EF8}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.1.3", "1", "Cloud Security & Compliance", "EARoot/EA4/EA5/EA1/EA3/EA746.htm", "4.png", "", "", "{DE63627D-5757-41ab-B5D2-E3E1CBC993A7}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.1.4", "1", "Risk Management", "EARoot/EA4/EA5/EA1/EA4/EA749.htm", "4.png", "", "", "{B69B40B3-A1B5-4ba9-AB07-ACF4003FDFE7}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.1.5", "1", "Risk Management Strategy", "EARoot/EA4/EA5/EA1/EA5/EA756.htm", "4.png", "", "", "{666D9FB4-AF74-40aa-A805-3BF5A1FA38BC}", "Package");

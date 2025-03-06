@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.4.4:1", "", "It Service Management", "EARoot/EA4/EA4/EA590.htm", "175.png", "2984", "0", "", "Logical diagram0","{D346656A-96F2-4403-A2D7-8D94C1E97DE6}");
+tocTab[tocTab.length] = new Array("0.4.4.1", "1", "Service Strategy", "EARoot/EA4/EA4/EA1/EA604.htm", "4.png", "", "", "{F8F872B3-4267-4966-A497-6BC0B0997D5F}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4.2", "1", "Service Design", "EARoot/EA4/EA4/EA2/EA627.htm", "4.png", "", "", "{327F4A0F-46CC-40e6-B49D-FB5DADC8A0BA}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4.3", "1", "Service Transition", "EARoot/EA4/EA4/EA3/EA646.htm", "4.png", "", "", "{324C46CC-3483-4269-AD67-A419A720DE0C}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4.4", "1", "Service Operation and Support", "EARoot/EA4/EA4/EA4/EA663.htm", "4.png", "", "", "{F3FFBAD5-66C6-4a37-B881-9212A6E3BCC3}", "Package");

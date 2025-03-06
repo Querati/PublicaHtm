@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.9.1.1.1.1", "1", "Architecture Capability", "EARoot/EA9/EA1/EA1/EA1/EA1/EA1320.htm", "4.png", "", "", "{751CE4D0-2FD8-4936-B16A-9E73A196EC72}", "Package");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.2", "1", "Architecture Landscape", "EARoot/EA9/EA1/EA1/EA1/EA2/EA1327.htm", "4.png", "", "", "{0E6325C8-EAEA-4feb-A9F9-464948E10191}", "Package");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.3", "1", "Architecture Metamodel", "EARoot/EA9/EA1/EA1/EA1/EA3/EA1334.htm", "4.png", "", "", "{68F75400-3D53-4ab0-A736-027DCC312D9D}", "Package");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.4", "1", "Governance Log", "EARoot/EA9/EA1/EA1/EA1/EA4/EA1349.htm", "4.png", "", "", "{6B97766D-3169-48cc-9731-3F65CD63C588}", "Package");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.5", "1", "Reference Library", "EARoot/EA9/EA1/EA1/EA1/EA5/EA1352.htm", "4.png", "", "", "{1BC4B020-0E48-4a90-A454-36D6503883FB}", "Package");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.6", "1", "Standards Information Base", "EARoot/EA9/EA1/EA1/EA1/EA6/EA1365.htm", "4.png", "", "", "{0AC3BF5B-F8F5-4212-8E29-2F6E5F79AFA0}", "Package");

@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.11.4:1", "", "Information Foundation", "EARoot/EA11/EA4/EA1561.htm", "175.png", "3021", "0", "", "Logical diagram0","{F76EC7AD-ADE9-45ed-9A88-BB9C2AD98B0C}");
+tocTab[tocTab.length] = new Array("0.11.4.1", "1", "Data Archive", "EARoot/EA11/EA4/EA1/EA1570.htm", "4.png", "", "", "{47D2A1F5-CA09-437c-9CF8-F7DD7B116777}", "Package");
+tocTab[tocTab.length] = new Array("0.11.4.2", "1", "Data Integration", "EARoot/EA11/EA4/EA2/EA1573.htm", "4.png", "", "", "{39D2DEC9-CCB2-4c27-AE61-FBCBBBB24B88}", "Package");
+tocTab[tocTab.length] = new Array("0.11.4.3", "1", "Data Services", "EARoot/EA11/EA4/EA3/EA1574.htm", "4.png", "", "", "{D0BB2A3F-A4A2-4911-AFD2-F8F59F9761A5}", "Package");
+tocTab[tocTab.length] = new Array("0.11.4.4", "1", "Enterprise Integration", "EARoot/EA11/EA4/EA4/EA1583.htm", "4.png", "", "", "{52946202-A743-4601-9A14-7454B11A8E7F}", "Package");

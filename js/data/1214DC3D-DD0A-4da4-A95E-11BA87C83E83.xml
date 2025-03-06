@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.11.5.2:1", "", "Cross Capability", "EARoot/EA11/EA5/EA2/EA1609.htm", "175.png", "3027", "0", "", "Logical diagram0","{749DD57D-2390-4818-9C73-50A298E85D5D}");
+tocTab[tocTab.length] = new Array("0.11.5.2.1", "", "Actuarial", "EARoot/EA11/EA5/EA2/EA1/EA1617.htm", "4.png", "", "", "{0F52B743-56E6-400e-9589-4FF7C6593048}", "Package");
+tocTab[tocTab.length] = new Array("0.11.5.2.2", "", "Billing & Remittance", "EARoot/EA11/EA5/EA2/EA2/EA1618.htm", "4.png", "", "", "{79A428CA-D290-42c4-8195-910D2F62B469}", "Package");
+tocTab[tocTab.length] = new Array("0.11.5.2.3", "", "Correspondence", "EARoot/EA11/EA5/EA2/EA3/EA1619.htm", "4.png", "", "", "{DA60725C-338B-44ad-A871-286E606E907E}", "Package");
+tocTab[tocTab.length] = new Array("0.11.5.2.4", "", "Investment Mgmt", "EARoot/EA11/EA5/EA2/EA4/EA1620.htm", "4.png", "", "", "{9885318C-8A6A-400a-AFF0-C893244A0E0A}", "Package");
+tocTab[tocTab.length] = new Array("0.11.5.2.5", "", "Reinsurance", "EARoot/EA11/EA5/EA2/EA5/EA1621.htm", "4.png", "", "", "{3B3E50E6-975C-4da9-81E0-B28850DEE816}", "Package");

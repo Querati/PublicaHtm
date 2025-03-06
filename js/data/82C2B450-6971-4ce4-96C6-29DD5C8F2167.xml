@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4.1.6.2:1", "", "Frameworks", "EARoot/EA4/EA1/EA6/EA2/EA272.htm", "175.png", "3087", "0", "", "Logical diagram0","{6EFEB7D7-D442-43b2-A081-93292A2158B5}");
+tocTab[tocTab.length] = new Array("0.4.1.6.2:2", "", "«ArchiMate_TechnologyService» Protractor?", "EARoot/EA4/EA1/EA6/EA2/EA275.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18610", "0", "", "Activity0","{31D261E5-440F-4850-9215-95203979857E}");
+tocTab[tocTab.length] = new Array("0.4.1.6.2:3", "", "«ArchiMate_TechnologyService» Puppeteer?", "EARoot/EA4/EA1/EA6/EA2/EA276.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18611", "0", "", "Activity0","{52C6FF60-1F3F-41fc-8401-DA16CB6FA913}");
+tocTab[tocTab.length] = new Array("0.4.1.6.2:4", "", "«ArchiMate_TechnologyService» Selenium", "EARoot/EA4/EA1/EA6/EA2/EA277.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18609", "0", "", "Activity0","{46785675-3E80-4bfe-88AD-8A938255F2FC}");

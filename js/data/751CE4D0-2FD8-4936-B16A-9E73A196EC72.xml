@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.9.1.1.1.1:1", "", "Architecture Charter", "EARoot/EA9/EA1/EA1/EA1/EA1/EA1314.htm", "175.png", "3291", "0", "", "Logical diagram0","{92DA61FD-3864-4c07-B0B2-32B850500F9C}");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.1:2", "", "Organization Structure", "EARoot/EA9/EA1/EA1/EA1/EA1/EA1316.htm", "175.png", "3290", "0", "", "Logical diagram0","{D3E06A2D-B44D-44db-AEB8-4AED4927F9C8}");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.1:3", "", "Skills Repository", "EARoot/EA9/EA1/EA1/EA1/EA1/EA1318.htm", "175.png", "3289", "0", "", "Logical diagram0","{0DB7E5F5-B89F-4559-9C26-F602D3A457C3}");

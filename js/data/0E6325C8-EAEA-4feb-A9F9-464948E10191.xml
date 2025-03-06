@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.9.1.1.1.2:1", "", "Capability Architecture", "EARoot/EA9/EA1/EA1/EA1/EA2/EA1321.htm", "175.png", "3284", "0", "", "Logical diagram0","{12239C52-096B-44c6-9D94-22C948712192}");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.2:2", "", "Segment Architectures", "EARoot/EA9/EA1/EA1/EA1/EA2/EA1323.htm", "175.png", "3283", "0", "", "Logical diagram0","{DFCCAA17-2248-4c43-8CD1-A2A2BD293145}");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.2:3", "", "Strategic Architectures", "EARoot/EA9/EA1/EA1/EA1/EA2/EA1325.htm", "175.png", "3282", "0", "", "Logical diagram0","{3C1EC231-B038-4913-87D9-23442F4E9A46}");

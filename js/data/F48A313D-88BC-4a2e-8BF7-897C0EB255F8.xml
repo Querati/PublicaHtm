@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.9.1.1.1", "1", "Architecture Repository", "EARoot/EA9/EA1/EA1/EA1/EA1307.htm", "4.png", "", "", "{19374842-6098-407e-BFED-5DDCD51962E6}", "Package");
+tocTab[tocTab.length] = new Array("0.9.1.1.2", "1", "Requeriments Repository", "EARoot/EA9/EA1/EA1/EA2/EA1372.htm", "4.png", "", "", "{D0A36F5A-B412-443a-83B9-6B55CF367DCD}", "Package");
+tocTab[tocTab.length] = new Array("0.9.1.1.3", "1", "Solutions Repository", "EARoot/EA9/EA1/EA1/EA3/EA1375.htm", "4.png", "", "", "{A990CD76-2416-4fd7-9234-EA9032F31248}", "Package");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.9.1.1.1.6:1", "", "Application Standards", "EARoot/EA9/EA1/EA1/EA1/EA6/EA1357.htm", "175.png", "3287", "0", "", "Logical diagram0","{2E69649A-8B1B-42fc-ADBF-0772C237D677}");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.6:2", "", "Business Standards", "EARoot/EA9/EA1/EA1/EA1/EA6/EA1359.htm", "175.png", "3285", "0", "", "Logical diagram0","{7744C882-0AA2-4049-9B24-AAC851A944EB}");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.6:3", "", "Data Standards", "EARoot/EA9/EA1/EA1/EA1/EA6/EA1361.htm", "175.png", "3286", "0", "", "Logical diagram0","{53D83AA5-3BE2-4855-AC44-5258A3EC9F10}");
+tocTab[tocTab.length] = new Array("0.9.1.1.1.6:4", "", "Technology Standards", "EARoot/EA9/EA1/EA1/EA1/EA6/EA1363.htm", "175.png", "3288", "0", "", "Logical diagram0","{FEEC6B4B-D048-40be-B3B8-F967954EC826}");

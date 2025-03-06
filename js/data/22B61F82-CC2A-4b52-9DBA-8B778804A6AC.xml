@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4.5.3:1", "", "Detect", "EARoot/EA4/EA5/EA3/EA784.htm", "175.png", "3066", "0", "", "Logical diagram0","{2AF2C499-505E-481d-AD5A-6D04A72BDD81}");
+tocTab[tocTab.length] = new Array("0.4.5.3.1", "1", "Anomallies and Events", "EARoot/EA4/EA5/EA3/EA1/EA792.htm", "4.png", "", "", "{598CDC26-FF4E-421e-978D-925310B42606}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.3.2", "1", "Detection Processes", "EARoot/EA4/EA5/EA3/EA2/EA795.htm", "4.png", "", "", "{413439DB-B85D-498d-9E3E-55A8F7EDF464}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.3.3", "1", "Security Monitoring ", "EARoot/EA4/EA5/EA3/EA3/EA798.htm", "4.png", "", "", "{736D21A3-A35E-49a9-8CB3-84DECE3B1113}", "Package");

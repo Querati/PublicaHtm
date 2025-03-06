@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.4.4.2:1", "", "Service Design", "EARoot/EA4/EA4/EA2/EA625.htm", "175.png", "3181", "0", "", "Logical diagram0","{C6978937-E5F4-498c-A6BD-5E471E8D576E}");
+tocTab[tocTab.length] = new Array("0.4.4.2.1", "1", "Disaster Recovery", "EARoot/EA4/EA4/EA2/EA1/EA634.htm", "4.png", "", "", "{3B860C8F-B394-4927-979D-88E258840178}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4.2.2", "1", "IT Service Continuity", "EARoot/EA4/EA4/EA2/EA2/EA637.htm", "4.png", "", "", "{B44284F3-B16E-462b-A98F-655B5DB14387}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4.2.3", "1", "Path Management", "EARoot/EA4/EA4/EA2/EA3/EA640.htm", "4.png", "", "", "{F483A789-FEC8-46d1-8C02-A370B610B03F}", "Package");
+tocTab[tocTab.length] = new Array("0.4.4.2.4", "1", "Service Level Management", "EARoot/EA4/EA4/EA2/EA4/EA643.htm", "4.png", "", "", "{C44050F3-78CD-4d95-ACFB-BB3145891DF5}", "Package");

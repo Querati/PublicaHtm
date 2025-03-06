@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.4.5.2:1", "", "Protect", "EARoot/EA4/EA5/EA2/EA757.htm", "175.png", "3262", "0", "", "Logical diagram0","{13A059BA-D334-4f23-865F-1F5EB7FD6A16}");
+tocTab[tocTab.length] = new Array("0.4.5.2.1", "1", "Access Control", "EARoot/EA4/EA5/EA2/EA1/EA768.htm", "4.png", "", "", "{B42D8919-9911-4fe1-B12D-64ED4B494ECF}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.2.2", "1", "Awareness Training ", "EARoot/EA4/EA5/EA2/EA2/EA771.htm", "4.png", "", "", "{BF1FC507-111A-4a52-B8A6-A98F07A681C5}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.2.3", "1", "Cyber Secutity ", "EARoot/EA4/EA5/EA2/EA3/EA774.htm", "4.png", "", "", "{92F54137-D392-423e-8A6A-D36A8777551C}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.2.4", "1", "Data Security ", "EARoot/EA4/EA5/EA2/EA4/EA777.htm", "4.png", "", "", "{F07834C6-356C-42dd-9C55-2B7786DF5CA6}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.2.5", "1", "Information Protection Process & Procedures", "EARoot/EA4/EA5/EA2/EA5/EA780.htm", "4.png", "", "", "{EE4EED03-D8DF-4fd2-94CC-00AE06685852}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.2.6", "1", "Maintenance", "EARoot/EA4/EA5/EA2/EA6/EA783.htm", "4.png", "", "", "{29168897-25FB-438c-A33C-86D480CA943E}", "Package");

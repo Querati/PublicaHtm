@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.9.1.1.2:1", "", "Capability Requirements", "EARoot/EA9/EA1/EA1/EA2/EA1366.htm", "175.png", "3300", "0", "", "Logical diagram0","{DEF03AF6-EE8E-48e3-BFC9-9B993C9F50E1}");
+tocTab[tocTab.length] = new Array("0.9.1.1.2:2", "", "Segment Requirements", "EARoot/EA9/EA1/EA1/EA2/EA1368.htm", "175.png", "3299", "0", "", "Logical diagram0","{C1A19B64-45DF-400c-AF02-FB66DBE5FF63}");
+tocTab[tocTab.length] = new Array("0.9.1.1.2:3", "", "Strategic Requirements", "EARoot/EA9/EA1/EA1/EA2/EA1370.htm", "175.png", "3298", "0", "", "Logical diagram0","{0ABA4998-C14E-4ed0-AE2E-4B075D83469F}");

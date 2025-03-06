@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4.3.2.3:1", "", "Storage", "EARoot/EA4/EA3/EA2/EA3/EA547.htm", "175.png", "3047", "0", "", "Logical diagram0","{81562BD2-1D69-4735-951E-4E6BD13356CB}");
+tocTab[tocTab.length] = new Array("0.4.3.2.3.1", "1", "Content Addressable Storage", "EARoot/EA4/EA3/EA2/EA3/EA1/EA555.htm", "4.png", "", "", "{4ABA1FED-C551-4c63-824B-BD4232556EB6}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.3.2", "1", "Physical File System", "EARoot/EA4/EA3/EA2/EA3/EA2/EA560.htm", "4.png", "", "", "{2052BBAB-24CA-4880-8407-3C82F5593D27}", "Package");
+tocTab[tocTab.length] = new Array("0.4.3.2.3.3", "1", "Virtual File System", "EARoot/EA4/EA3/EA2/EA3/EA3/EA563.htm", "4.png", "", "", "{8189ECE2-26AC-4f15-B584-EC2708FE927C}", "Package");

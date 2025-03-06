@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.4.1.1.3:1", "", "Mail, Message, and Calendar", "EARoot/EA4/EA1/EA1/EA3/EA128.htm", "175.png", "3051", "0", "", "Logical diagram0","{F7272F68-F0B3-45d0-BCA3-58B2959BAAAA}");
+tocTab[tocTab.length] = new Array("0.4.1.1.3:2", "", "«ArchiMate_TechnologyService» AWS SES", "EARoot/EA4/EA1/EA1/EA3/EA131.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E18604", "0", "", "Activity0","{D546496B-AEF4-4d0c-A12D-D7E89979163D}");

@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<div align="left"><font face="Calibri"><b>1 - Extra&#231;&#227;o de dados do Mercado Pago</b></font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Ap&#243;s configurado o Mercado Pago nos disponibilizar&#225; os arquivos via SFTP no nosso servidor, teremos um 
+agendamento do Automic olhando essa pasta e assim que o arquivo estiver dispon&#237;vel ele ir&#225; transferir para 
+uma pasta do NAS do projeto do Finance Engine.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Olhando essa pasta do NAS teremos no passo seguinte um Kafka Connect que far&#225; a leitura do arquivo e 
+criar&#225; um t&#243;pico para cada linha do arquivo com todas as informa&#231;&#245;es do mesmo.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Precisamos verificar qual o campo nesse arquivo podemos identificar um cliente (EXTERNAL_REFERENCE ou 
+SOURCE_ID), no momento que o Kafka Connect for produzir o t&#243;pico ele usar&#225; esse n&#250;mero como message 
+key da mensagem, podendo assim usarmos mais de uma parti&#231;&#227;o e mais de um consumidor no passo 
+seguinte.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><b>1.1 - Concilia&#231;&#227;o de vendas da Wordline</b></font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Ap&#243;s configurado o Wordline nos disponibilizar&#225; os arquivos via SFTP no nosso servidor, teremos um 
+agendamento do Automic olhando essa pasta e assim que o arquivo estiver dispon&#237;vel ele ir&#225; transferir para 
+uma pasta do NAS do projeto do Finance Engine.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Olhando essa pasta do NAS teremos no passo seguinte um Kafka Connect que far&#225; a leitura do arquivo e 
+criar&#225; um t&#243;pico para cada linha do arquivo com todas as informa&#231;&#245;es do mesmo.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><b>2 - Transforma&#231;&#227;o dos dados</b></font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Teremos um passo que ir&#225; transformar os dados recebidos pelo Mercado Pago, Wordline e extratos 
+banc&#225;rios, o objetivo aqui &#233; fazer com que os valores dos dados recebidos sejam tratados de forma a fazer 
+todos os sistemas da Prudential entender que dados estamos trabalhando.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O servi&#231;o principal &#233; o SRV0167, que ler&#225; as bases de dados gerenciadas pelos servi&#231;os SRV0036 e SRV0155, 
+com esses dados o servi&#231;o dever&#225; ser capaz de transformar as transa&#231;&#245;es e eventos para um template &#250;nico 
+do FE.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O servi&#231;o poder&#225; ter mais de uma inst&#226;ncia, j&#225; que os eventos chegaram em ordem por causa da &quot;message 
+key&quot; inserida no passo anterior.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><b>3 - In&#237;cio do Fluxo do FE</b></font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O servi&#231;o principal do FE &#233; o SRV0168, ele poder&#225; ter mais de uma inst&#226;ncia pois todas as mensagem que ele 
+consumir ter&#227;o uma &quot;message key&quot; com um identificador de transa&#231;&#227;o ou identificador da origem (em caso 
+de Parceria).</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Esse servi&#231;o dever&#225; ser capaz de processar todas as transa&#231;&#245;es ou eventos vinculados a uma transa&#231;&#227;o, 
+dever&#225; armazenar essa informa&#231;&#227;o na base de dados (evento ou a pr&#243;pria transa&#231;&#227;o caso seja a primeira 
+entrada no sistema), todas as informa&#231;&#245;es ser&#227;o salvas em formato JSON, no caso de uma transa&#231;&#227;o haver&#225; 
+um template &#250;nico e o servi&#231;o dever&#225; gerar um Transaction ID, no caso de eventos o formato e os valores no 
+JSON poder&#227;o variar conforme a origem da requisi&#231;&#227;o (Parceiro, OracleGL ou Concilia&#231;&#227;o) e gerar um Event 
+ID.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Transaction ID e Event ID devem estar no formato UUID version 4. </font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Ap&#243;s salvar o registro de evento, o servi&#231;o precisar&#225; decidir qual o pr&#243;ximo passo que a transa&#231;&#227;o precisar&#225; 
+percorrer por dentro dos sistemas financeiros da Prudential, para isso ele ler&#225; uma tabela de regras 
+previamente definidas pela &#225;rea de Finance no servi&#231;o SRV0169, e baseando na origem e no &#250;ltimo evento 
+ocorrido o servi&#231;o dever&#225; direcionar a transa&#231;&#227;o para o sistema devido.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Esse direcionamento sempre ocorrer&#225; colocando a informa&#231;&#227;o da transa&#231;&#227;o e outras informa&#231;&#245;es 
+necess&#225;rias ao sistema que ir&#225; receber essa transa&#231;&#227;o em um t&#243;pico que dar&#225; vaz&#227;o ao sistema destino, essa 
+mensagem dever&#225; entrar com o devido &quot;message key&quot; sendo a &quot;Transaction ID&quot; afim de garantir o 
+sequenciamento dos eventos.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><b>4 - Reconciliation</b></font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Se a defini&#231;&#227;o da regra no FE for a Concilia&#231;&#227;o Financeira antes ou em paralelo com a contabiliza&#231;&#227;o no 
+OracleGL a aplica&#231;&#227;o de concilia&#231;&#227;o dever&#225; receber essa transa&#231;&#227;o, para tal, unificaremos com a aplica&#231;&#227;o 
+desenhada para a parte de Concilia&#231;&#227;o de Contas a Pagar e j&#225; aprovada em SARB no dia 14/07/2022.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Nesse caso, a forma de funcionamento dever&#225; ser igual ao j&#225; definido no desenho de Concilia&#231;&#227;o de Contas a 
+Pagar.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Qualquer evento relevante a uma transa&#231;&#227;o que seja percebido no sistema de concilia&#231;&#227;o, o mesmo dever&#225; 
+realimentar a entrada do servi&#231;o de FE, produzindo a mensagem no t&#243;pico de entrada do FE com o &quot;message 
+key&quot; sendo o &quot;Transaction ID&quot; e as informa&#231;&#245;es relevantes para aquele evento.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Nesse sentido, o FE far&#225; novamente a an&#225;lise se deve ter alguma a&#231;&#227;o ou n&#227;o, novamente se baseando na 
+origem e &#250;ltimo evento ocorrido, nesse caso o sistema dever&#225; avaliar tamb&#233;m a origem da transa&#231;&#227;o.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><b>5 - OracleGL</b></font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Se a defini&#231;&#227;o da regra no FE for a Concilia&#231;&#227;o Financeira antes ou em paralelo com a contabiliza&#231;&#227;o no 
+OracleGL a transa&#231;&#227;o precisa ser enviada ao servi&#231;o de integra&#231;&#227;o do OracleGL, e o fluxo dever&#225; seguir o 
+mesmo conceito da aplica&#231;&#227;o de Concilia&#231;&#227;o Financeira.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Qualquer evento relevante a uma transa&#231;&#227;o que seja percebido no sistema de concilia&#231;&#227;o, o mesmo dever&#225; 
+realimentar a entrada do servi&#231;o de FE, produzindo a mensagem no t&#243;pico de entrada do FE com o &quot;message 
+key&quot; sendo o &quot;Transaction ID&quot; e as informa&#231;&#245;es relevantes para aquele evento.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Nesse sentido, o FE far&#225; novamente a an&#225;lise se deve ter alguma a&#231;&#227;o ou n&#227;o, novamente se baseando na 
+origem e &#250;ltimo evento ocorrido, nesse caso o sistema dever&#225; avaliar tamb&#233;m a origem da transa&#231;&#227;o.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><b>6 - Aplica&#231;&#227;o Front-End</b></font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O Finance Engine dever&#225; possuir um &#250;nico ponto de interface com seus devidos m&#243;dulos: Concilia&#231;&#227;o, 
+Gateways de Pagamento e Finance Engine (nesse caso podemos ter relat&#243;rios e filtros para que seja filtrado 
+os status de cada transa&#231;&#227;o e ventos no ecossistema).</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Aqui tamb&#233;m teremos as telas administra&#231;&#227;o dos servi&#231;os que fornecem dados ao neg&#243;cio: SRV036, 
+SRV0155 e SRV0169.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">A sua autentica&#231;&#227;o se dar&#225; por meio do Azure AD, e a autoriza&#231;&#227;o por meio dos grupos que o determinado 
+usu&#225;rio com permiss&#227;o eventualmente possua.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Precisamos definir quais os perfis de usu&#225;rios precisamos ter no sistema.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><b>7 - Pix e Boleto</b></font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">Teremos um servi&#231;o que far&#225; a integra&#231;&#227;o entre o gateway de pagamentos da Wordline e o Finance Engine, 
+esse servi&#231;o ter&#225; a fun&#231;&#227;o unicamente de gerar o boleto banc&#225;rio ou o QR Code e disponibilizar a informa&#231;&#227;o 
+para o sistema cliente, todo esse fluxo dever&#225; ser s&#237;ncrono.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O fluxo de gera&#231;&#227;o de um novo boleto ou QR Code dever&#225; ser o seguinte:</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">A aplica&#231;&#227;o cliente requisita um boleto ou um QR Code, passando um c&#243;digo de origem e um identificador 
+(que varia por sistema demandante);</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O servi&#231;o de integra&#231;&#227;o insere um registro como venda registrada no FE, passando o c&#243;digo de origem e o 
+identificador como &quot;Source ID&quot;;</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O servi&#231;o de integra&#231;&#227;o aciona a Wordline gera o boleto ou o QR Code e envia no campo 
+&quot;merchantReference&quot; o valor do codigo origem concatenado com o identificador com um &quot;-&quot; (h&#237;fen) entre 
+eles, por exemplo INGENIUM-123412, MELI-43133123, PROPOSTA-3212342;</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O servi&#231;o de integra&#231;&#227;o responde de forma s&#237;ncrona a aplica&#231;&#227;o que o demandou com as informa&#231;&#245;es 
+retornadas pela Wordline.</font></div>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri">O fluxo de pagamento criado na Wordline seria o seguinte:</font></div>
+<div align="left">&nbsp;</div>
+<ol style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; ">
+<li style="list-style-type: none; margin-left: 9pt; margin-right: 0pt; padding-left: 0pt; font-size: 11pt;  color: #010101;  ">1. <font face="Calibri">O Webhook escutar&#225; o evento &quot;payment.created&quot;, esse evento ocorre toda vez que um pagamento &#233; 
+criado na Wordline;</font></li>
+<li style="list-style-type: none; margin-left: 9pt; margin-right: 0pt; padding-left: 0pt; font-size: 11pt;  color: #010101;  ">2. <font face="Calibri">recebendo esse evento o servi&#231;o ler&#225; o valor do campo &quot;merchantReference&quot; e resgatar&#225; os valores de 
+c&#243;digo de origem e identificador;</font></li>
+<li style="list-style-type: none; margin-left: 9pt; margin-right: 0pt; padding-left: 0pt; font-size: 11pt;  color: #010101;  ">3. <font face="Calibri">O servi&#231;o ir&#225; fazer uma nova requisi&#231;&#227;o para o FE enviando esses campos, permitindo assim ser criado 
+uma transa&#231;&#227;o em aberto no FE. </font></li>
+</ol>
+<div align="left"><font face="Calibri">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></div>
+<div align="left"><font face="Calibri">O fluxo de confirma&#231;&#227;o de pagamento dever&#225; ser o seguinte:</font></div>
+<div align="left">&nbsp;</div>
+<ol style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; ">
+<li style="list-style-type: none; margin-left: 9pt; margin-right: 0pt; padding-left: 0pt; font-size: 11pt;  color: #010101;  ">1. <font face="Calibri">Quando o cliente realiza o pagamento de um boleto ou QR Code, a Wordline ir&#225; nos notificar via 
+Webhook, pelo evento &quot;payment.paid&quot;;</font></li>
+<li style="list-style-type: none; margin-left: 9pt; margin-right: 0pt; padding-left: 0pt; font-size: 11pt;  color: #010101;  ">2. <font face="Calibri">recebendo esse evento o servi&#231;o ler&#225; o valor do campo &quot;merchantReference&quot; e resgatar&#225; os valores de 
+c&#243;digo de origem e identificador;</font></li>
+<li style="list-style-type: none; margin-left: 9pt; margin-right: 0pt; padding-left: 0pt; font-size: 11pt;  color: #010101;  ">3. <font face="Calibri">O servi&#231;o de integra&#231;&#227;o enviar&#225; para o FE um evento de uma transa&#231;&#227;o paga, passando o c&#243;digo de 
+origem e identificador;</font></li>
+<li style="list-style-type: none; margin-left: 9pt; margin-right: 0pt; padding-left: 0pt; font-size: 11pt;  color: #010101;  ">4. <font face="Calibri">Parte desse fluxo dever&#225; possuir uma regra para que o FE, atrav&#233;s do c&#243;digo de origem, identifique e 
+notifique uma fila onde o sistema demandante conseguir&#225; saber tamb&#233;m que o pagamento foi realizado.</font></li>
+</ol>
+<div align="left"><font face="Calibri"><br /></font></div><div align="left"><font face="Calibri"><br /></font></div><div align="left"><img src="EAID_731497D6_DBAF_4912_AB62_C6CE85E29E3A_1.PNG" width="645" height="407" border="0" alt="graphic"/></div>
+</body>
+</html>

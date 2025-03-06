@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.7.3.1.6:1", "", "«ArchiMate_ApplicationComponent» Mkt Direto<br />", "EARoot/EA7/EA3/EA1/EA6/EA1028.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E19501", "0", "", "Component0","{AF2D1569-8C2B-4545-8E08-F06FC2D6175C}");
+tocTab[tocTab.length] = new Array("0.7.3.1.6:2", "", "«ArchiMate_ApplicationComponent» Salesforce", "EARoot/EA7/EA3/EA1/EA6/EA1029.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E19617", "0", "", "Component0","{9224DB17-0440-4963-B113-474271425D78}");
